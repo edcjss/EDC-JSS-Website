@@ -1,0 +1,110 @@
+nav{
+    z-index: 300;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color: #f4f4f4;
+    padding: 0px 20px;
+    margin: 0px 5px;
+    font-size: large;
+}
+
+
+  .navbar-nav li a:hover{
+    border: 3px solid  #0066b2;
+    border-bottom: none;
+    border-top: none;
+  }
+
+
+
+
+/* MOBILE VIEW */
+#menu {
+    display: none;
+    cursor: pointer;
+    opacity: 1;
+    border: 1px solid #494949;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#menu:hover{
+     opacity: .8;
+     transition: all 0.5s ease;
+     border-color: #0066b2;
+}
+  
+.overlay {
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #494949;
+    opacity: 1;
+    overflow-x: hidden;
+    z-index: 9999;
+    transition: all 0.4s ease 0s;
+}
+
+.overlay_clicked{
+    height: 100%;
+    width: 80%;
+    position: fixed;
+    z-index: 9999999;
+    top: 0;
+    left: 0;
+    background-color: #494949;
+    opacity: 1;
+    overflow-x: hidden;
+    transition: all 0.4s ease-out 0s;
+}
+
+  
+.overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.overlay a {
+    padding: 15px;
+    font-size: 8vw;
+    display: block;
+    color: #edf0f1;
+    transition: all 0.3s ease 0s;
+}
+  
+.overlay a:hover {
+    text-decoration: none;
+    color: #0066b2;
+}
+
+@media (max-height: 450px) {
+    .overlay a {
+      font-size: 20px;
+    }
+    .overlay .close {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+}
+
+@media(min-width:565px){
+  .overlay a{
+    font-size: 4.62vw;
+  }
+}
+
+@media  (max-width: 990px) {
+    #menu {
+      display: block;
+    }
+}
+
