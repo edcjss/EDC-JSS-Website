@@ -94,17 +94,54 @@ nav{
       top: 15px;
       right: 35px;
     }
+    
 }
 
 @media(min-width:565px){
   .overlay a{
     font-size: 4.62vw;
   }
+  
 }
 
 @media  (max-width: 990px) {
     #menu {
       display: block;
     }
+    .foot{
+        margin-left: 140px;
+    }
+}
+
+/* ------------------------------------- Footer ------------------------------------- */
+#footer{
+    background-color:#f3f3f3;
+}
+#footer li{
+    list-style:none;
+    padding-top:5px;     
+}
+#footer li a{
+    text-decoration:none;
+    font-size:17px;
+    color: #494949;
+}
+#footer li a:hover{
+    color:#0066b2;
+   
+}
+
+h5.text-center{
+   color: #494949;
+}
+
+.foot{
+    margin-top: 60px;
+}
+
+.copyright{
+    background-color: #f3f3f3;
+    color:#494949;
+    text-align:center;
 }
 
