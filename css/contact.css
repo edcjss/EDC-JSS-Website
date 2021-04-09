@@ -1,3 +1,7 @@
+body{
+    overflow-x: hidden;
+}
+
 nav{
     z-index: 300;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
@@ -145,3 +149,232 @@ h5.text-center{
     text-align:center;
 }
 
+
+
+/* ------------------------------------- Container ------------------------------------- */
+.container1{
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    margin-top: 35px;
+}
+.container1 .row{
+    width: 100%;
+    margin-left: 50px;
+}
+.container1 .first{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    height: 80vh;
+}
+.container1 .second{
+     height: 40px;
+    width: 100vw; 
+    margin-left: -10px;
+    background-color: #0066b2;
+}
+.container1 .row  .one{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    padding: 70px 100px;
+}
+.container1 .column p{
+    margin-bottom: 20px;
+}
+.container1 .column h3{
+    text-align: left;
+    margin-left: 85px;
+}
+.container1 .column a{
+    margin:5px;
+    text-decoration: none;
+    color: #333;
+}
+.container1 .column i{
+    margin-right: 10px;
+}
+
+.container1 .row .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f4f4;
+    margin-top: 70px;
+    margin-left: -45px;
+    height:480px;
+    width: 450px; 
+    z-index: 10;
+    border-radius: 10px;
+    padding: 40px;
+    box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+}
+.container1 .column h3.form-head{
+    text-align: left;
+    margin-left: 0px;
+}
+.container1 input[type=text], select,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    
+}
+textarea {
+   
+    height: 120px;
+    margin-bottom: 20px;
+    
+}
+  
+.container1 input[type=submit] {
+    background-color: #0066b2;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+.container1 input[type=submit]:hover {
+    opacity: 0.8;
+  }
+  .fa-map{
+    margin-left: -50px;
+}
+.fa-phone{
+    margin-left: -50px;
+}
+.fa-envelope-open{
+    margin-left: -50px;
+}
+
+
+  @media(max-width:768px){
+    .container1 .first{
+        flex-direction: column;
+        height:inherit;
+    }
+      .container1 .row  .one{
+        width: 100%;
+        padding: 70px 50px;
+    }
+    .container1  .row .two{
+       
+        width: 100%;
+        border-radius: 10px;
+        padding: 40px;
+        margin-top: 30px;
+        z-index: 10;
+        border-radius: 10px;
+    }
+    .container1 .second{
+      height: 0px;
+ }
+  }
+  
+  .form-container {
+    max-width: 300px;
+    padding: 20px;
+    margin: 2px;
+    background-color: #0066b2;
+    border-radius: 10px;
+  }
+  
+  .form-container textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0px 22px 0;
+    border: none;
+    background: #ffffff;
+    resize: none;
+    min-height: 200px;
+  }
+  
+  .form-container textarea:focus {
+    background-color: #f4f4f4;
+    outline: none;
+  }
+  
+  .form-container .btn {
+    background-color: #0066b2;
+    color: white;
+    padding: 10px 16px;
+    border: 2px solid #f4f4f4; 
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+    border-radius: 5px;
+  }
+  
+  
+  .form-container .cancel {
+    background-color: #0066b2;
+  }
+  
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  @media(max-width:768px)
+  {
+    .open-button {
+        background-color:#333;
+        color: white;
+      }
+      .open-button i{
+        color: white;
+    }
+  }
+
+
+
+
+@media screen and (max-width: 500px){
+    .container1 .column h3{
+        text-align: left;
+        margin-left: 50px;
+    }
+    .fa-map{
+        margin-left: -110px;
+        margin-top: 30px;
+    }
+    .fa-envelope-open{
+        margin-left: -110px;
+        margin-top: 20px;
+    }
+    .fa-phone{
+        margin-left: -110px;
+        margin-top: 20px;
+    }
+    .grey-colored-text-18{
+        margin-left: -50px;
+        width: 200px;
+    }
+    .col-sm-5{
+        margin-top: 50px;
+        margin-left: -20px;
+    }
+    .col-sm-5 .dark-blue-text{
+        margin-left: -20px;
+    }
+    .container1 .row .two{
+        margin-bottom: 100px;
+    }
+    #footer{
+        margin-left: -100px;
+    }
+    #footer .copyright{
+        margin-left: 100px;
+    }
+    .img-fluid{
+        margin-left: 30px;
+    }
+}
