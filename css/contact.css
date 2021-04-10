@@ -2,6 +2,8 @@ body{
     overflow-x: hidden;
 }
 
+/* ------------------------------------- Navbar ------------------------------------- */
+
 nav{
     z-index: 300;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
@@ -118,6 +120,7 @@ nav{
 }
 
 /* ------------------------------------- Footer ------------------------------------- */
+
 #footer{
     background-color:#f3f3f3;
 }
@@ -147,6 +150,10 @@ h5.text-center{
     background-color: #f3f3f3;
     color:#494949;
     text-align:center;
+}
+.img-fluid{
+    height: 200px;
+    width: 200px;
 }
 
 
@@ -279,50 +286,7 @@ textarea {
       height: 0px;
  }
   }
-  
-  .form-container {
-    max-width: 300px;
-    padding: 20px;
-    margin: 2px;
-    background-color: #0066b2;
-    border-radius: 10px;
-  }
-  
-  .form-container textarea {
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0px 22px 0;
-    border: none;
-    background: #ffffff;
-    resize: none;
-    min-height: 200px;
-  }
-  
-  .form-container textarea:focus {
-    background-color: #f4f4f4;
-    outline: none;
-  }
-  
-  .form-container .btn {
-    background-color: #0066b2;
-    color: white;
-    padding: 10px 16px;
-    border: 2px solid #f4f4f4; 
-    cursor: pointer;
-    width: 100%;
-    margin-bottom:10px;
-    opacity: 0.8;
-    border-radius: 5px;
-  }
-  
-  
-  .form-container .cancel {
-    background-color: #0066b2;
-  }
-  
-  .form-container .btn:hover, .open-button:hover {
-    opacity: 1;
-  }
+
   @media(max-width:768px)
   {
     .open-button {
@@ -335,9 +299,9 @@ textarea {
   }
 
 
+/* MEDIA QUERIES */
 
-
-@media screen and (max-width: 500px){
+@media only screen and (max-width: 500px){
     .container1 .column h3{
         text-align: left;
         margin-left: 50px;
@@ -376,5 +340,73 @@ textarea {
     }
     .img-fluid{
         margin-left: 30px;
+    }
+}
+
+@media (max-width:900px) and (min-width: 768px) {
+    .container1 .column h3{
+        margin-left: 130px;
+    }
+    .container1 .row  .one{
+        width: 100%;
+    }
+    .fa-map{
+        margin-left: -20px;
+        margin-top: 30px;
+    }
+    .fa-envelope-open{
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+    .fa-phone{
+        margin-left: -20px;
+        margin-top: 20px;
+    }
+    .grey-colored-text-18{
+        margin-left: -10px;
+        width: 200px;
+    }
+    .col-sm-5{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    .col-sm-5 .dark-blue-text{
+        margin-left: 10px;
+    }
+    #footer .container{
+        margin-left: -100px;
+    }
+    .contactblock{
+        margin-left: 430px;
+        margin-top: -230px;
+        width: 100%;
+    }
+    .col-md-4{
+        margin-top: 50px;
+        margin-left: -10px;
+    }
+    #footer .copyright{
+        margin-left: 230px;
+    }
+    .foot{
+        margin-top: 120px;
+    }
+    .container1 .row .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        margin-top: -40px;
+        margin-left: -65px;
+        height:480px;
+        width: 800px; 
+        z-index: 10;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    }
+    #map{
+        margin-top: 480px;
     }
 }
