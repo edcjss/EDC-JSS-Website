@@ -45,8 +45,6 @@
     }
 }*/
 
-.row1{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+.about-us{
+    margin: 1.5rem 10%;
 }
