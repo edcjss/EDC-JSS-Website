@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
@@ -83,7 +84,7 @@
              
              <div class="row mt-lg-4 offset-1">
               <div class="col-lg-2 col-sm-5 col-5 offset-2 offset-lg-0 offset-md-0">
-                <i class="fa-3x fa .fas fa-phone mt-lg-4 blue-text" ></i>
+                <i class="fa-3x fa fas fa-phone mt-lg-4 blue-text" ></i>
               </div>
               <div class="col-lg-10 col-sm-5 col-5">
                 <h5 class="dark-blue-text mb-2 font-weight-bold" style="margin-top: 20px;">Phone</h5>
@@ -106,9 +107,13 @@
 
 
         </div>
+
+    <!-- </div>
+        <div class="row first"> -->
+
         <div class="column two">
-            <h3 class="form-head"><strong>SAY SOMETHING</strong></h3>
-            <form action="#">
+            <h3 class="form-head"><strong>HAVE SOME QUERY?</strong></h3>
+            <form action="mailto:vanisingh6612@gmail.com">
                 <label for="fname">Full Name</label>
                 <input type="text" id="fname" name="firstname" placeholder="Your name..">
                 <label for="mail">Mail</label>
@@ -116,24 +121,24 @@
                 <label for="subject">Subject</label>
                 <textarea id="subject" name="subject" rows="8" placeholder="Write something.."></textarea>
             
-                <input type="submit" value="Submit">
+                <input type="submit" value="Submit" class="submit">
               </form>
         </div>
     </div>
-    <button class="open-button" onclick="openForm()"><i class="fas fa-comment-alt fa-2x"></i></button>
-    <div class="row second">
+    <!-- <button class="open-button" onclick="openForm()"><i class="fas fa-comment-alt fa-2x"></i></button> -->
+    <!-- <div class="row second"> -->
     </div>
 
 <!-- map -->
 
-<section class="maps wow fadeInUp" id="map">
+<!-- <section class="maps wow fadeInUp" id="map">
   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14010.088382627784!2d77.3587763!3d28.6141105!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaaa44725147c1507!2sJSS%20Academy%20of%20Technical%20Education!5e0!3m2!1sen!2sin!4v1617973624224!5m2!1sen!2sin" width="100%" height="450" style="border:0;" frameborder="0" allowfullscreen></iframe>
-</section>
+</section> -->
 
 <br><br><br><br><br><br>
 
 <!-- Footer -->
-    <div id="footer" class="pt-4 mb-0">
+    <!-- <div id="footer" class="pt-4 mb-0">
       <div class="container">
           <div class="row">
               <div class="col-lg-4 col-md-5 col-sm-12 col-12">
@@ -170,7 +175,58 @@
               <p>&copy; Copyright | EDC JSSATEN | 2021</p>
           </div>            
     </div>
-  </div>
+  </div> -->
+
+
+
+  <footer class="foot">
+    <div class="container-footer">
+        <div class="aboutus">
+            <h2>About us</h2>
+            <p>Entrepreneurship Development Cell is a consortium of imagineers working towards manifesting the latent entrepreneurial spirit of young students</p>
+            <ul class="social">
+                <li><a href="https://twitter.com/cell_edc"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/ecell.jssaten"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/ecelljss/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/edc-jssate/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="quicklinks">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Initiatives</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="contactus">
+            <h2>Contact Us</h2>
+            <ul class="information">
+                <li>
+                    <span><i class="fa fa-map-marker"></i></span>
+                    <span>C-20/1, Sector-62,<br> NOIDA - 201301</span>
+                </li>
+                <li>
+                    <span><i class="fa fas fa-phone phone2"></i></span>
+                    <span><a href="tel:9919325738">(+91)9919325738</a></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <span><a href="mailto:info@edcjss.in">info@edcjss.in</a></span>
+                </li>
+            </ul>
+        </div>
+      </div> 
+        <hr class="bg-white">
+          <div class="text-center pt-3 pb-2 copyright" style="color: #494949;">
+              <p>&copy; Copyright | EDC JSSATEN | 2021</p>
+          </div> 
+    <!-- </div>         -->
+</footer>
 
 
 <script src="js/contact.js"></script>
