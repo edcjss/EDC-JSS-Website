@@ -508,15 +508,15 @@ textarea {
         margin-left: 50px;
     }
     .fa-map{
-        margin-left: -110px;
+        margin-left: -120px;
         margin-top: 30px;
     }
     .fa-envelope-open{
-        margin-left: -110px;
+        margin-left: -120px;
         margin-top: 20px;
     }
     .fa-phone{
-        margin-left: -110px;
+        margin-left: -120px;
         margin-top: 20px;
     }
     .grey-colored-text-18{
@@ -528,12 +528,22 @@ textarea {
         margin-left: -20px;
     }
     .col-sm-5 .dark-blue-text{
-        margin-left: -20px;
+        margin-left: -30px;
     }
     .container1 .row .two{
         margin-bottom: 100px;
     }
-    #footer{
+    footer{
+        margin-top: -130px;
+    }
+    .contactus{
+        margin-left: -35px;
+    }
+    i.phone2{
+        margin-left: -3px;
+        margin-top: -3px;
+    }
+    /* #footer{
         margin-left: -100px;
     }
     #footer .copyright{
@@ -541,7 +551,7 @@ textarea {
     }
     .img-fluid{
         margin-left: 30px;
-    }
+    } */
 }
 
 @media (max-width:900px) and (min-width: 768px) {
@@ -574,24 +584,42 @@ textarea {
     .col-sm-5 .dark-blue-text{
         margin-left: 10px;
     }
-    #footer .container{
+    /* #footer .container{
         margin-left: -100px;
-    }
+    } */
     .contactblock{
         margin-left: 430px;
         margin-top: -230px;
         width: 100%;
     }
+    .column .two {
+        width: 50%;
+    }
+    /* .container1 .row .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #f4f4f4;
+        margin-top: 70px;
+        margin-left: -45px;
+        height:480px;
+        width: 150px; 
+        z-index: 10;
+        border-radius: 10px;
+        padding: 40px;
+        box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
+    } */
     .col-md-4{
         margin-top: 50px;
         margin-left: -10px;
     }
-    #footer .copyright{
+    /* #footer .copyright{
         margin-left: 230px;
-    }
-    .foot{
+    } */
+    /* .foot{
         margin-top: 120px;
-    }
+    } */
     .container1 .row .two{
         display: flex;
         flex-direction: column;
@@ -607,8 +635,18 @@ textarea {
         padding: 40px;
         box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
     }
-    #map{
-        margin-top: 480px;
+    footer{
+        margin-top: 400px;
     }
+    .contactus{
+        margin-left: -35px;
+    }
+    i.phone2{
+        margin-left: -3px;
+        margin-top: -3px;
+    }
+    /* #map{
+        margin-top: 480px;
+    } */
 }
 
