@@ -9,7 +9,7 @@
 }
 
 .text-wrapper{
-    padding: 10% 20%;
+    padding: 10% 10%;
     background-image: url(../img/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -38,13 +38,25 @@
 }
 
 .odd{
-    background-color: #c9bd8d;
+    background-color: #f1f1f1;
     padding: 10px;
+    margin: 1rem;
+    border-radius: 10px;
 }
 
 .even{
-    background-color: darkgray;
+    background-color: #f4f9ff;
     padding: 10px;
+    margin: 1rem;
+    border-radius: 10px;
+}
+
+.odd:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+}
+
+.even:hover{
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
 @media (max-width: 900px) and (min-width: 768px){
