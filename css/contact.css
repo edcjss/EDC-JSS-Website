@@ -361,6 +361,10 @@ i.phone2{
 .container1 .first{
     display: flex;
     flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+    
     background-color: #ffffff;
     height: 80vh;
 }
@@ -373,16 +377,27 @@ i.phone2{
 .container1 .row  .one{
     display: flex;
     flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-left: -200px;
+    /* margin-top: 30px; */
     width: 50%;
-    text-align: left;
+    /* text-align: left; */
     padding: 70px 100px;
 }
 .container1 .column p{
     margin-bottom: 20px;
 }
 .container1 .column h3{
-    text-align: left;
-    margin-left: 85px;
+    text-align: center;
+    margin-left: -230px;
+    margin-top: 30px;
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
 .container1 .column a{
     margin:5px;
@@ -402,18 +417,28 @@ i.phone2{
     justify-content: center;
     align-items: center;
     background-color: #f4f4f4;
-    margin-top: 70px;
-    margin-left: -45px;
+    margin-top: 40px;
+    /* margin-left: -45px; */
+    margin-left: -105px;
     height:480px;
-    width: 450px; 
+    /* width: 450px;  */
+    width: 550px;
     z-index: 10;
     border-radius: 10px;
     padding: 40px;
     box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
 }
+
+/* .container1 .column .two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
 .container1 .column h3.form-head{
     text-align: left;
     margin-left: 0px;
+    margin-top: 10px;
 }
 .container1 input[type=text], select,textarea{
     width: 100%;
@@ -504,8 +529,20 @@ textarea {
 
 @media only screen and (max-width: 500px){
     .container1 .column h3{
-        text-align: left;
-        margin-left: 50px;
+        text-align: center;
+        margin-left: -30px;
+    }
+    .container1 .row  .one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        margin-left: -75px;
+        /* margin-top: 30px; */
+        /* width: 50%; */
+        /* text-align: left; */
+        padding: 70px 100px;
     }
     .fa-map{
         margin-left: -120px;
@@ -533,6 +570,17 @@ textarea {
     .container1 .row .two{
         margin-bottom: 100px;
     }
+    .container1 .row .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin-left: -95px;
+        height:480px;
+        /* width: 590px; */
+        /* width: 450px;  */
+    }
     footer{
         margin-top: -130px;
     }
@@ -556,10 +604,22 @@ textarea {
 
 @media (max-width:900px) and (min-width: 768px) {
     .container1 .column h3{
-        margin-left: 130px;
+        margin-left: -130px;
     }
     .container1 .row  .one{
         width: 100%;
+    }
+    .container1 .row  .one{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+        margin-left: 30px;
+        /* margin-top: 30px; */
+        /* width: 50%; */
+        /* text-align: left; */
+        padding: 70px 100px;
     }
     .fa-map{
         margin-left: -20px;
@@ -627,16 +687,27 @@ textarea {
         align-items: center;
         background-color: #f4f4f4;
         margin-top: -40px;
-        margin-left: -65px;
+        margin-left: -100px;
         height:480px;
         width: 800px; 
         z-index: 10;
         border-radius: 10px;
         padding: 40px;
+        margin-bottom: 120px;
         box-shadow: 2px 4px 8px 2px rgba(0, 0, 0, 0.2);
     }
+    /* .container1 .row .two{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-left: -95px;
+        height:480px;
+        width: 450px; 
+    } */
     footer{
-        margin-top: 400px;
+        margin-top: 450px;
     }
     .contactus{
         margin-left: -35px;
