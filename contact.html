@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | EDC JSSATEN</title>
+     <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/contact.css">
+    <!-- BOOTSTRAP CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+<!-- NAVBAR -->
+  
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="overflow-x: hidden; position: fixed; top: 0; width: 100%;">
+  <a class="navbar-brand" href="#">
+      <img class="logo2" src="./img/logo.png" height="70px" width="170px">
+   </a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent" style="position: inherit; right: 2%;">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item  active">
+          <a class="nav-link" href="#" >Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Events</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Initiatives</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+   </div>
+   <i class="material-icons"  id="menu" onclick="openNav()" style=" color: black;">menu</i>
+</nav>  
+
+<!-- Mobile menu -->
+<div id="mobile__menu" class="overlay" style="z-index: 999999;">
+  <div class="overlay__content">
+      <a href="#">Home</a>
+      <a href="#">About Us</a>
+      <a href="#">Events</a>
+      <a href="#">Team</a>
+      <a href="#">Initiatives</a>
+      <a href="#">Contact Us</a>
+  </div>
+</div>
+
+<!-- NAVBAR ENDS -->
+
+<br><br><br><br><br><br>
+
+<!-- CONTACT US SECTION-->
+<div class="container-fluid text-center">
+  <h3 class=" font-weight-bold blue-text text-center">Connect With Us</h3>
+  <h1 class=" display-4 font-weight-bold line-height-heading text-center pb-4 mobile-heading">Please contact us using the<br />information below</h1>
+  <br>
+  <div class="row">
+      <div class="items col-md-6 col-12">
+          <h4><strong>GET IN TOUCH</strong></h4>
+          <div class="column">
+              <div class="item">
+                  <div class="col-lg-4 media col-sm-3 col-3 offset-lg-0 offset-md-0 d-flex justify-content-end">
+                      <i class="fa-3x fa fa-map mt-lg-4 blue-text"></i>
+                  </div>
+                  <div class="col-lg-8 col-sm-7 col-7 float-left d-flex  flex-column justify-content-start align-items-center">
+                      <h5 class="dark-blue-text mb-2 font-weight-bold" style="margin-top: 20px">Address</h5>
+                      <p class="grey-colored-text-18">C-20/1, Sector-62,<br />
+                      NOIDA - 201301</p>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="col-lg-4 media col-sm-3 col-3 offset-lg-0 offset-md-0 d-flex justify-content-end">
+                      <i class="fa-3x fa fas fa-phone mt-lg-4 blue-text"></i>
+                  </div>
+                  <div class="col-lg-8 col-sm-7 col-7 float-left d-flex  flex-column justify-content-start align-items-center">
+                      <h5 class="dark-blue-text mb-2 font-weight-bold" style="margin-top: 20px">Phone</h5>
+                      <p class="grey-colored-text-18">(+91)9919325738</p>
+                  </div>
+              </div>
+              <div class="item">
+                  <div class="col-lg-4 media col-sm-3 col-3 offset-lg-0 offset-md-0 d-flex justify-content-end">
+                      <i class="fa-3x fa fa-envelope-open mt-lg-4 blue-text"></i>
+                  </div>
+                  <div class="col-lg-8 col-sm-7 col-7 float-left d-flex  flex-column justify-content-start align-items-center">
+                      <h5 class="dark-blue-text mb-2 font-weight-bold" style="margin-top: 20px">Mail</h5>
+                      <p class="grey-colored-text-18">info@edcjss.in</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-md-6 col-12">
+          <div class="form1">
+              <h4 class="form-head"><strong>HAVE SOME QUERY?</strong></h4>
+              <div class="column two container1 first">
+                  <form action="mailto:info@edcjss.in" class="text-left">
+                  <label for="fname" class="text-left  d-block">Full Name</label>
+                  <input
+                      type="text"
+                      id="fname"
+                      name="firstname"
+                      placeholder="Your name.."
+                  />
+                  <label for="mail" class="text-left d-block">Mail</label>
+                  <input
+                      type="text"
+                      id="mail"
+                      name="mail"
+                      placeholder="Your Mail.."
+                  />
+                  <label for="subject" class="text-left d-block">Subject</label>
+                  <textarea
+                      id="subject"
+                      name="subject"
+                      rows="8"
+                      placeholder="Write something.."
+                  ></textarea>
+      
+                  <input type="submit" value="Submit" class="submit" />
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+<!-- CONTACT US SECTION END-->
+
+
+<br><br><br><br><br><br>
+
+
+<!-- FOOTER -->
+  <footer class="foot">
+    <div class="container-footer">
+        <div class="aboutus">
+            <h2>About us</h2>
+            <p>Entrepreneurship Development Cell is a consortium of imagineers working towards manifesting the latent entrepreneurial spirit of young students</p>
+            <ul class="social">
+                <li><a href="https://twitter.com/cell_edc"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.facebook.com/ecell.jssaten"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/ecelljss/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.linkedin.com/company/edc-jssate/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="quicklinks">
+            <h2>Useful Links</h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Initiatives</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="contactus">
+            <h2>Contact Us</h2>
+            <ul class="information">
+                <li>
+                    <span><i class="fa fa-map-marker"></i></span>
+                    <span>C-20/1, Sector-62,<br> NOIDA - 201301</span>
+                </li>
+                <li>
+                    <span><i class="fa fas fa-phone phone2"></i></span>
+                    <span><a href="tel:9919325738">(+91)9919325738</a></span>
+                </li>
+                <li>
+                    <span><i class="fa fa-envelope"></i></span>
+                    <span><a href="mailto:info@edcjss.in">info@edcjss.in</a></span>
+                </li>
+            </ul>
+        </div>
+      </div> 
+        <hr class="bg-white">
+          <div class="text-center pt-3 pb-2 copyright" style="color: #494949;">
+              <p>&copy; Copyright | EDC JSSATEN | 2021</p>
+          </div> 
+</footer>
+
+
+<script src="js/contact.js"></script>
+</body>
+</html>
