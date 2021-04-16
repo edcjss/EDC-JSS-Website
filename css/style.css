@@ -6,15 +6,24 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.nav{
+    background-color: #f1f1f1;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+    padding: 10px 0px;
+    z-index: 99999;
+}
 
 .nav li{
     list-style: none!important;
 }
-
+/*
 .navbar a{
     margin-left: 40px;
 }
-
+*/
 .navbar{
     padding-top: 0px !important;
     padding-bottom: 0px !important;
@@ -22,6 +31,21 @@
 
 .navbar div{
     margin-right: 40px;
+}
+
+.nav-link:hover{
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+
+.mobile-link{
+    text-decoration: none;
+}
+
+@media (max-width: 992px){
+    .nav-link{
+        display: none!important;
+    }
 }
 
 .content-wrapper{
@@ -41,6 +65,7 @@
 .about-us{
     background-color: #f1f1f1;
     padding: 5px;
+    padding-bottom: 1rem;
 }
 
 .about-us p{
@@ -127,6 +152,11 @@ footer{
     columns: grey;
 }
 
+.img{
+    display: flex;
+    justify-content: center;
+}
+
 @media (max-width: 900px) and (min-width: 768px){
     .foot1 {
         margin-top: 0px!important;
@@ -184,7 +214,7 @@ footer{
 }
 
 @media (max-width: 768px){
-    #menu{
+    /*#menu{
         margin-right: 40px;
-    }
+    }*/
 }
