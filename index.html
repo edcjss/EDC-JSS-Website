@@ -23,35 +23,70 @@
     <div class="main">
         <!-- Navbar Start-->
         <!-- NAVBAR -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-light" style="overflow-x: hidden; position: fixed; top: 0; width: 100%;">
-                <a class="navbar-brand" href="./index.html">
-                    <img class="logo2" src="./img/logo.png" width="75px">
-                </a>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent" style="position: inherit; right: 2%;">
-                    <ul class="navbar-nav mr-auto">
-                    <li class="nav-item  active">
-                        <a class="nav-link" href="./index.html" >Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./events.html">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Initiatives</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact Us</a>
-                    </li>
-                    </ul>
+        <!--
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="overflow-x: hidden; position: fixed; top: 0; width: 100%;">
+            <a class="navbar-brand" href="./index.html">
+                <img class="logo2" src="./img/logo.png" width="75px">
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="position: inherit; right: 2%;">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item  active">
+                    <a class="nav-link" href="./index.html" >Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./events.html">Events</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Initiatives</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                </li>
+                </ul>
+            </div>
+            <i class="material-icons"  id="menu" onclick="openNav()" style=" color: black;">menu</i>
+        </nav>
+        -->
+            <div class="nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <a class="navbar-brand" href="./index.html">
+                                <img class="logo2" src="./img/logo.png" width="75px">
+                            </a>
+                        </div>
+                        <div class="col-md-10">
+                            <ul class="navbar nav">
+                                <li class="nav-item  active">
+                                    <a class="nav-link" href="./index.html" >Home<span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./events.html">Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Team</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Initiatives</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="./contact.html">Contact Us</a>
+                                </li>
+                                </ul>
+                        </div>
+                        <i class="material-icons"  id="menu" onclick="openNav()" style=" color: black;">menu</i>
+                    </div>
                 </div>
-                <i class="material-icons"  id="menu" onclick="openNav()" style=" color: black;">menu</i>
-            </nav>  
-            
+            </div>
             <!-- Mobile menu -->
             <div id="mobile__menu" class="overlay" style="z-index: 999999;">
                 <div class="overlay__content">
@@ -69,11 +104,17 @@
         <div>
             <!-- Image With Text-->
             <div class="content-wrapper">
-                <!--<img src="./img/bg.jpg" alt="">-->
-                <div class="text-wrapper">
-                    <h1 class="display-4">Entrepreneurship Development Cell</h1>
-                    <h4>- We stand for <span class="txt-type text-muted" data-wait="3000" data-words='["Forthright", "Great", "Awesome"]'></span> </h4>
-                    <p>ECell JSSATE Noida is a consortium of imagineers working towards manifesting the latent entrepreneurial spirit of young students</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-12">
+                            <img src="./img/earth-wire-network.png" alt="" style="width: 100%;">
+                        </div>
+                        <div class="col-md-6 col-12" style="margin: auto;">
+                            <h1>Entrepreneurship Development Cell</h1>
+                            <h4>- We stand for <span class="txt-type text-muted" data-wait="3000" data-words='["Forthright", "Great", "Awesome"]'></span> </h4>
+                            <p>Pairing Potential with Opportunity</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Image  with Text Ends-->
@@ -264,7 +305,7 @@
             <!-- Stats Section-->
             <div class="stats text-center">
                 <!--<p class="display-4">Our Achievements</p>-->
-                <div class="container-fluid">
+                <div class="container">
                     <div class="row flow">
                         <div class="col col-md-3 col-sm-6 col-12">
                             <div class="odd">
@@ -347,3 +388,6 @@
     <script src="./js/typewriter.js"></script>
 </body>
 </html>
+
+
+<!--https://jamboard.google.com/d/1foV7fG0_cabfFWFSoJwlVMY3LXTQxPeMIuASVZBjG_E/viewer?f=0-->
