@@ -159,7 +159,7 @@ align-items: center;
 justify-content: center;
 } */
 
-h2 {
+h3 {
 display: flex;
 align-items: center;
 justify-content: center;
@@ -187,18 +187,20 @@ height: 500px;
    flex-direction: column;
 }
 .header{
-  padding: 140px;
+  padding: 80px;
+ 
 }
 img.fakeimg-top{
-height: 250px;
-margin-top: -100px;
+height: 200px;
+margin-top: -60px;
 }
 .center{
- width: 80%;
+ width: 75%;
 }
 img.fakeimg{
- height: 250px;
+ height: 200px;
 }
+
 }
 
 @media (max-width: 900px) and (min-width: 768px){
