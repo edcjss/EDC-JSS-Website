@@ -1,0 +1,63 @@
+/*.main{
+    background-color: #f1f1f1;
+}*/
+.img1{
+    background: url(../img/corp.jpg) center center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+.about-init{
+    background-color: #929bffba;
+    height: 50vh;
+    margin-bottom: 3rem;
+    display: flex;
+    text-align: right;
+}
+.txt1{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.init{
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.tile{
+    padding: 0!important;
+    margin: 20px 0px;
+}
+.txt{
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.tbox{
+    padding: 20px;
+}
+.tbox h3{
+    font-size: 1.35rem;
+    border-bottom: 2px solid blue;
+}
+#flc{
+    background: url(../img/iplauc.jpg);
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+}
+#wec{
+    background: url(../img/talk.jpg);
+    background-size: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+@media (max-width: 575.98px){
+    .txt{
+        flex-direction: column-reverse;
+    }
+    .img_tile{
+        height: 200px;
+    }
+}
