@@ -8,7 +8,7 @@
 }
 
 .nav{
-    background-color: #353535;
+    background-color: #f1f1f1;
     position: fixed;
     top: 0;
     width: 100%;
@@ -50,12 +50,14 @@
 }
 
 .content{
-    background-color: #f7f7f7;
+    margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .content-wrapper{
     width: 95%;
     margin: auto;
+    margin: 10px 0px;
 }
 
 .text-wrapper{
@@ -68,7 +70,7 @@
 }
 
 .about-us{
-    background-color: #434343;
+    /*background-color: #434343;*/
     padding: 1.5rem;
     color: #f1f1f1;
 }
@@ -76,6 +78,10 @@
 .about-us p{
     font-size: 1rem;
     font-weight: 300;
+}
+
+.why{
+    margin: 10px 0px;
 }
 
 .why div{
@@ -86,7 +92,6 @@
     text-align: center;
     font-size: 1rem;
     font-weight: 400;
-    background-color: #434343;
     padding: 5px;
 }
 
@@ -96,17 +101,19 @@
 }
 
 .odd{
-    background-color: white;
+    background-color: blue;
     padding: 10px;
     margin: 1rem;
     border-radius: 10px;
+    color: white;
 }
 
 .even{
-    background-color: white;
+    background-color: blue;
     padding: 10px;
     margin: 1rem;
     border-radius: 10px;
+    color: white;
 }
 
 .odd:hover{
@@ -117,11 +124,22 @@
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
 }
 
+.sponsors{
+    margin: 10px 0px;
+}
+
+.i-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .social{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 0!important;
 }
 
 .social i{
@@ -129,8 +147,8 @@
 }
 
 footer{
-    background-color: #434343;
-    color: #f1f1f1;
+    background-color: #f1f1f1;
+    color: #333333;
 }
 
 .footer ul{
@@ -146,11 +164,6 @@ footer{
 .img{
     display: flex;
     justify-content: center;
-}
-
-.logo2{
-    height: 42px;
-    width: 75px;
 }
 
 @media (max-width: 900px) and (min-width: 768px){
