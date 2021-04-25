@@ -115,6 +115,20 @@ nav{
   }
 }
 
+@media(max-width:768px)
+  {
+    .open-button {
+        background-color:#333;
+        color: white;
+      }
+      .open-button i{
+        color: white;
+    }
+  }
+
+
+
+
 
 
  *{
