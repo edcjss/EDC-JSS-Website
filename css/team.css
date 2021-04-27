@@ -1,0 +1,262 @@
+  
+body {
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	overflow-x: hidden;
+	background-color: #fff;
+}
+
+
+.year {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+	width: 100%;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.year .hr {
+	height: 2px;
+	background-color: #707070;
+	width: 360px;
+	max-width: 360px;
+	min-width: 20px;
+	margin-top: 1.6vh;
+}
+
+.year h6 {
+	width: 200px;
+	font-size: 24px;
+	padding: 0px 40px;
+}
+
+.team {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.third {
+	margin-top: 100px;
+}
+
+
+#main_team {
+	margin-top: 6rem;
+	z-index: 100;
+}
+
+#main_team .col-md-4 {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+
+#main_team .padding {
+	padding-top: 4rem !important;
+}
+
+@media (max-width: 768px) {
+	#main_team .padding {
+		padding-top: 0 !important;
+	}
+}
+
+#main_team span {
+	font-size: 30px;
+	color: #212121;
+}
+
+@media (max-width: 768px) {
+	#main_team span {
+		font-size: 20px;
+	}
+}
+
+#main_team .margin_new {
+	width: 70%;
+}
+
+@media (max-width: 768px) {
+	#main_team .margin_new {
+		width: 90%;
+	}
+}
+
+#main_team h1 {
+	font-size: 36px;
+	color: #212121;
+}
+
+@media (max-width: 768px) {
+	#main_team h1 {
+		font-size: 28px;
+	}
+}
+
+#main_team h2 {
+	font-size: 30px;
+	color: #212121;
+}
+
+@media (max-width: 768px) {
+	#main_team h2 {
+		font-size: 20px;
+	}
+}
+
+#main_team h4 {
+	color: #616161;
+	font-size: 1.25rem;
+	text-align: left;
+	padding-top: 3rem;
+	width: 90%;
+	font-weight: 200;
+	padding-bottom: 6rem;
+	line-height: 1.618;
+}
+
+@media (max-width: 768px) {
+	#main_team h4 {
+		width: 100%;
+		border-radius: 8px;
+		font-size: 16px;
+		text-align: center;
+		line-height: 1.4;
+		padding-top: 0.5rem;
+		padding-bottom: 1rem;
+	}
+}
+
+#main_team .margin {
+	width: 75%;
+}
+
+@media (max-width: 768px) {
+	#main_team .margin {
+		width: 80%;
+	}
+}
+
+#main_team .head_team {
+	min-height: 100px;
+	width: 100%;
+	padding: 24px;
+}
+
+#main_team .head_team:hover {
+	-webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.14);
+	border-radius: 4px;
+	background-color: #fff;
+}
+
+#main_team .head_team .img {
+	width: 100%;
+	border-radius: 8px;
+}
+
+#main_team .head_team a {
+	text-decoration: none;
+}
+
+#main_team .head_team h3 {
+	font-size: 22px;
+	color: #757575;
+}
+
+@media (max-width: 768px) {
+	#main_team .head_team h3 {
+		font-size: 16px;
+	}
+}
+
+#main_team .head_team h5 {
+	font-size: 20px;
+}
+
+@media (max-width: 768px) {
+	#main_team .head_team h5 {
+		font-size: 20px;
+	}
+}
+
+#main_team .head_team h6 {
+	font-size: 16px;
+	color: #616161;
+}
+
+@media (max-width: 768px) {
+	#main_team .head_team h6 {
+		font-size: 14px;
+	}
+}
+
+#main_team .box_container {
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media (max-width: 768px) {
+	#main_team .box_container {
+		width: 90%;
+	}
+}
+
+#main_team .box {
+	width: 380px;
+	margin-top: 6rem;
+	margin-bottom: -100px;
+	margin-right: 0 !important;
+	padding-right: 40px;
+	padding-left: 40px;
+	min-height: 240px;
+	border-radius: 8px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
+	box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.24);
+	background: -webkit-gradient(linear, left top, right bottom, from(#46d3ff), to(#1afb94));
+	background: linear-gradient(to bottom right, #46d3ff, #1afb94);
+}
+
+@media (max-width: 768px) {
+	#main_team .box {
+		width: 90vw;
+	}
+}
+
+#main_team .box h1 {
+	font-size: 36px;
+	color: #fff;
+	font-weight: 300;
+}
+
+@media (max-width: 768px) {
+	#main_team .box h1 {
+		font-size: 28px;
+	}
+}
+
+#main_team .box p {
+	color: #fff;
+	font-size: 24px;
+}
+
+#main_team .box .arrow {
+	border-radius: 50%;
+	color: #fff;
+	padding: 2px;
+	border: 1px solid #fff;
+}

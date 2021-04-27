@@ -1,0 +1,264 @@
+{
+    "fourth": [
+        {
+            "profile": "Anubhav.jpg",
+            "name": "Anubhav Singhal",
+            "designation": "President",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/anubhavitis/"
+                },
+                {
+                    "website": "twitter",
+                    "url": "https://twitter.com/anubhavitis"
+                }
+            ]
+        },
+        {
+            "profile": "Samarth.jpg",
+            "name": "Samarth Sharma",
+            "designation": "Vice-President",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/samarth-sharma-677a23172"
+                },
+                {
+                    "website": "twitter",
+                    "url": "https://twitter.com/__stoic__"
+                }
+            ]
+        },
+        {
+            "profile": "Atulya.jpg",
+            "name": " Atulya Srivastava ",
+            "designation": "Board of Directors",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/atulya-srivastava/"
+                }
+            ]
+        },
+        {
+            "profile": "Nischal.jpg",
+            "name": "Nishchal Singh",
+            "designation": "Board of Directors",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/nischal-singh-42898b157"
+                }
+            ]
+        },
+        {
+            "profile": "Parmeet.jpg",
+            "name": "Parmeet Singh",
+            "designation": "Board of Directors",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/parmeet-singh-chattha-788658149"
+                }
+            ]
+        }
+    ],
+    "third": [
+        {
+            "profile": "Anukarsh.jpg",
+            "name": "Anukarsh Raj",
+            "designation": "Core Designer",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/anukarsh-0101/"
+                },
+                {
+                    "website": "twitter",
+                    "url": "https://twitter.com/AnukarshRaj"
+                }
+            ]
+        },
+        {
+            "profile": "Amish.jpg",
+            "name": "Amish Srivastava",
+            "designation": "Editorial Head",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": " https://www.linkedin.com/in/amish-srivastava-216b8a18a"
+                }
+            ]
+        },
+        {
+            "profile": "Ayush.jpg",
+            "name": "Ayush Omer",
+            "designation": "Media Lead",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/ayush-omer-25nkv"
+                },
+                {
+                    "website": "twitter",
+                    "url": "https://twitter.com/Lawliet2580?s=08"
+                }
+            ]
+        },
+        {
+            "profile": "Soumy.jpg",
+            "name": "Soumy Gupta",
+            "designation": "Design Head",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/soumy-gupta-a970ab180"
+                },
+                {
+                    "website": "twitter",
+                    "url": "https://twitter.com/iamsg7?s=08"
+                }
+            ]
+        },
+        {
+            "profile": "Amit.jpg",
+            "name": "Amit Shukla",
+            "designation": "Core Technical team",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/amit-shukla-65a7b9169"
+                }
+            ]
+        }
+    ],
+    "second": [
+        {
+            "profile": "Aarav.jpg",
+            "name": "Aarav Pant",
+            "designation": "Executive Member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/aarav-pant-5a5599195"
+                }
+            ]
+        },
+        {
+            "profile": "Kavya.jpg",
+            "name": "Kavya",
+            "designation": "Executive Member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/kavya-shukla-b872771a1"
+                }
+            ]
+        },
+        {
+            "profile": "Piyush.jpg",
+            "name": "Piyush Mishra",
+            "designation": "Executive Member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/piyush-mishra-2933bb195"
+                }
+            ]
+        },
+        {
+            "profile": "Utkarsh.jpg",
+            "name": "Utkarsh Tyagi",
+            "designation": "Executive member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/utkarsh-tyagi-8022a51b7"
+                }
+            ]
+        },
+        {
+            "profile": "Akash.jpg",
+            "name": "Akash Gupta",
+            "designation": "Executive member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/akash-gupta-21a3a0195"
+                }
+            ]
+        },
+        {
+            "profile": "KavyaDaga.jpg",
+            "name": "Kavya Daga",
+            "designation": "Executive Member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/kavya-daga-462b33197"
+                }
+            ]
+        },
+        {
+            "profile": "Ayushi.jpg",
+            "name": "Ayushi Shukla",
+            "designation": "Executive Member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/ayushi-shukla-b42a47175"
+                }
+            ]
+        },
+        {
+            "profile": "Apoorv.jpg",
+            "name": "Apoorv srivastava",
+            "designation": "Executive member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/apoorv-srivastava-044211191/"
+                }
+            ]
+        },
+        {
+            "profile": "Divyanshu.jpg",
+            "name": "Divyanshu Pratap Singh",
+            "designation": "Executive member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/divyanshu-pratap-singh-964479191"
+                },
+                {
+                    "website": "twitter",
+                    "url": "https://mobile.twitter.com/srv_at_duty"
+                }
+            ]
+        },
+        {
+            "profile": "Anjana.jpg",
+            "name": "Anjana Bajaj",
+            "designation": "Executive Member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/bajajanjana"
+                }
+            ]
+        },
+        {
+            "profile": "Navya.jpg",
+            "name": "Navya sharma",
+            "designation": "Executive Member",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "http://linkedin.com/in/navya-sharma-4936b0194"
+                }
+            ]
+        }
+
+    ]
+}
