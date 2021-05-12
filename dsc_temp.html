@@ -98,50 +98,62 @@
 
       <!-- Main Body Section with content-->
       
-        <div class="container" style="margin-top: 6rem;">
-            <div class="project__card mb-5" style="box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.3); border-radius: 10px;">
-                <div class="row">
+        <div class="container" id="event_space" style="margin-top: 6rem;">
+            <!--
+              <div class="project__card mb-5" style="box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.3); border-radius: 10px;">
+                <div class="row tiles">
                   <div
-                    class="project__image col-lg-5 col-md-7 col-12"
+                    class="project__image col-lg-5 col-12"
                     style="
-                      background-color: #F0C630
+                      background-color: #F0C630;
                     "            >
                     <img
                       src="https://i.ibb.co/RbSCG8C/Zealicon-app.png"
                       alt="zealicon"
                       style="
-                        width: 90%;
+                        width: 95%; margin: auto;
                       "              
                       />
                   </div>
-                  <div class="project__content col-lg-7 p-5 col-md-5 col-12">
+                  <div class="project__content col-lg-7 p-5 col-12">
                     <h3 class="mb-3">Zealicon App 2020</h3>
-                    <p class="mb-2" id="data1">
-                      The official android app of the annual fest of JSSATEN, Zealicon
-                      2020. The theme of the fest is "Music". Explore all events
-                      day-wise as well as category-wise. Get all the upcoming events
-                      at one place. Set reminder to your favourite events.
+                    <p class="mb-2" id="data1" style="font-size: 30px; overflow: hidden; height: 270px;">
+                      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
                     </p>
-                    <!--
-                    <div class="mb-3">
-                      <img src={kotlin} alt="android" />
-                      <img src={firebase} alt="firebase" />
-                    </div>
-                    -->
-                    <button class="btn btn-primary" id="click1">View Project</button>
+                    <button class="btn btn-primary" id="click1">View More</button>
                     <button class="btn btn-danger" id="exit1" style="display: none;">Close</button>
                   </div>
                 </div>
-              </div>
+            </div>
+          -->
         </div>
         
         <script>
-            var para = document.getElementById("data1");
-            var btn = document.getElementById("click1");
+            var para1 = document.getElementById("data1");
+            var btn1 = document.getElementById("click1");
             var exit1 = document.getElementById("exit1");
-            btn.addEventListener("click", addData);
+            btn1.addEventListener("click", addData);
             exit1.addEventListener("click", removeData);
-            function addData(){
+
+            var para2 = document.getElementById("data2");
+            var btn2 = document.getElementById("click2");
+            var exit2 = document.getElementById("exit2");
+            btn2.addEventListener("click", addData);
+            exit2.addEventListener("click", removeData);
+
+            var para3 = document.getElementById("data3");
+            var btn3 = document.getElementById("click3");
+            var exit3 = document.getElementById("exit3");
+            btn3.addEventListener("click", addData);
+            exit3.addEventListener("click", removeData);
+
+            var para4 = document.getElementById("data4");
+            var btn4 = document.getElementById("click4");
+            var exit4 = document.getElementById("exit4");
+            btn4.addEventListener("click", addData);
+            exit4.addEventListener("click", removeData);
+            
+            /*function addData(){
                 para.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
                 btn.style.display = "none";
                 exit1.style.display = "block";
@@ -151,10 +163,91 @@
                 para.innerText = "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
                 btn.style.display = "block";
                 exit1.style.display = "none";
+            }*/
+            function addData(){
+              para.style.height = "auto";
+              para.style.overflow = "visible";
+              btn.style.display = "none";
+              exit1.style.display = "block";
+            }
+
+            function removeData(){
+              para.style.height = "270px";
+              para.style.overflow = "hidden";
+              btn.style.display = "block";
+              exit1.style.display = "none";
             }
         </script>
         
+        <script type="text/javascript">
+          /*function getLinks(data) {
+            var html = "";
+            data.links.forEach((element) => {
+              switch (element.website) {
+                case "linkedin":
+                  html += `<a href=${element.url} target='_blank'><i class="fab fa-linkedin"></i></a> &nbsp;`;
+                  break;
+                case "twitter":
+                  html += `<a href=${element.url} target='_blank'><i class="fab fa-twitter"></i></a> &nbsp;`;
+                  break;
+              }
+            });
+            return html;
+          }*/
+    
+          fetch("events.json")
+            .then((res) => res.json())
+            .then((data) => {
+              // Getting data
+              var Data = data.events;
+              for (var i = 0; i < Data.length; i++) {
+                var box = document.createElement("div");
+                box.setAttribute("class", "box");
 
+                /*var html = `<div class="head_team ">
+                  <div class="content">
+                <div class="content-overlay"></div>
+                        <img src=${"./img/" + Data[i].profile} class="img2" alt="Photo" width="300px"/>
+                        <div class="content-details fadeIn-top">
+                        <h5 class=" pt-3">${Data[i].name}</h5>
+                        <h6 style="margin-bottom: 0%" class=" pb-1">${Data[i].designation}</h6>
+                        ${getLinks(Data[i])}
+                        </div>
+                        </div>
+                      </div>
+                `;*/
+
+                var html = `<div class="project__card mb-5" style="box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.3); border-radius: 10px;">
+                    <div class="row tiles">
+                      <div
+                        class="project__image col-lg-5 col-12"
+                        style="
+                          background-color: #F0C630;
+                        "            >
+                        <img
+                        src=${"./img/events/" + Data[i].image}
+                          alt="zealicon"
+                          style="
+                            width: 95%; margin: auto;
+                          "              
+                          />
+                      </div>
+                      <div class="project__content col-lg-7 p-5 col-12">
+                        <h3 class="mb-3">${Data[i].name}</h3>
+                        <p class="mb-2" id=${"data" + Data[i].count} style="font-size: 30px; overflow: hidden; height: 270px;">
+                          ${Data[i].description}
+                        </p>
+                        <button class="btn btn-primary" id=${"click" + Data[i].count}>View More</button>
+                        <button class="btn btn-danger" id=${"exit" + Data[i].count} style="display: none;">Close</button>
+                      </div>
+                    </div>
+                </div>`
+    
+                box.innerHTML = html;
+                document.getElementById("event_space").appendChild(box);
+              }
+            });
+        </script>
       <!-- Main Body Section with content ends-->
 
       <!--  Footer Section-->
@@ -215,6 +308,7 @@
   ></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="./js/contact.js"></script>
 </html>
 
 <!--https://jamboard.google.com/d/1foV7fG0_cabfFWFSoJwlVMY3LXTQxPeMIuASVZBjG_E/viewer?f=0-->
