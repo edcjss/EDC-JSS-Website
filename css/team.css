@@ -27,6 +27,11 @@ body {
 	align-items: center;
 }
 
+.year-title{
+	font-size: 24px;
+	text-align: center;
+}
+
 .team {
 	display: flex;
 	flex-wrap: wrap;
@@ -240,6 +245,10 @@ body {
   .content:hover .content-overlay{
 	opacity: 1;
   }
+
+  .content-overlay{
+	  height: 300px!important;
+  }
   
   .content-details {
 	position: absolute;
@@ -279,4 +288,8 @@ body {
 .all_tile{
 	display: flex;
     justify-content: space-evenly;
+}
+.content-details > a > i{
+	margin: 15px;
+	font-size: 2rem;
 }
