@@ -135,24 +135,6 @@
             btn1.addEventListener("click", addData);
             exit1.addEventListener("click", removeData);
 
-            var para2 = document.getElementById("data2");
-            var btn2 = document.getElementById("click2");
-            var exit2 = document.getElementById("exit2");
-            btn2.addEventListener("click", addData);
-            exit2.addEventListener("click", removeData);
-
-            var para3 = document.getElementById("data3");
-            var btn3 = document.getElementById("click3");
-            var exit3 = document.getElementById("exit3");
-            btn3.addEventListener("click", addData);
-            exit3.addEventListener("click", removeData);
-
-            var para4 = document.getElementById("data4");
-            var btn4 = document.getElementById("click4");
-            var exit4 = document.getElementById("exit4");
-            btn4.addEventListener("click", addData);
-            exit4.addEventListener("click", removeData);
-            
             /*function addData(){
                 para.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
                 btn.style.display = "none";
@@ -180,20 +162,6 @@
         </script>
         
         <script type="text/javascript">
-          /*function getLinks(data) {
-            var html = "";
-            data.links.forEach((element) => {
-              switch (element.website) {
-                case "linkedin":
-                  html += `<a href=${element.url} target='_blank'><i class="fab fa-linkedin"></i></a> &nbsp;`;
-                  break;
-                case "twitter":
-                  html += `<a href=${element.url} target='_blank'><i class="fab fa-twitter"></i></a> &nbsp;`;
-                  break;
-              }
-            });
-            return html;
-          }*/
     
           fetch("events.json")
             .then((res) => res.json())
@@ -203,19 +171,6 @@
               for (var i = 0; i < Data.length; i++) {
                 var box = document.createElement("div");
                 box.setAttribute("class", "box");
-
-                /*var html = `<div class="head_team ">
-                  <div class="content">
-                <div class="content-overlay"></div>
-                        <img src=${"./img/" + Data[i].profile} class="img2" alt="Photo" width="300px"/>
-                        <div class="content-details fadeIn-top">
-                        <h5 class=" pt-3">${Data[i].name}</h5>
-                        <h6 style="margin-bottom: 0%" class=" pb-1">${Data[i].designation}</h6>
-                        ${getLinks(Data[i])}
-                        </div>
-                        </div>
-                      </div>
-                `;*/
 
                 var html = `<div class="project__card mb-5" style="box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.3); border-radius: 10px;">
                     <div class="row tiles">
