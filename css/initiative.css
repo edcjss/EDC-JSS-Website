@@ -1,13 +1,6 @@
 /*.main{
     background-color: #f1f1f1;
 }*/
-.img1{
-    background: url(../img/corp.jpg) center center;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0;
-}
 .about-init{
     margin-bottom: 2rem;
     display: flex;
@@ -26,6 +19,8 @@
 .tile{
     padding: 0!important;
     margin: 20px 0px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 .txt{
     display: flex;
@@ -40,6 +35,7 @@
     font-size: 1.35rem;
     border-bottom: 2px solid #0066b2;
 }
+/*
 #flc{
     background: url(../img/Financial\ Literacy\ Club.jpg) center;
     background-size: cover;
@@ -50,17 +46,33 @@
     background-size: cover;
     border-radius: 0 10px 10px 0;
 }
+*/
 .modal_img{
-    width: 100%;
+    width: 90%;
     height: auto;
-    margin: 10px 0;
+    margin: 2rem 5%;
 }
 
 @media (max-width: 575.98px){
-    .txt{
+    .tile{
         flex-direction: column-reverse;
     }
-    .img_tile{
-        height: 200px;
+    .tile_img{
+        height: 90%;
     }
+}
+
+.tile{
+    display: flex;
+}
+
+.img_tile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: darkgoldenrod;
+}
+
+.tile_img{
+    width: 90%;
 }
