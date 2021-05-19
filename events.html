@@ -163,7 +163,7 @@
                             src=${"./img/events/" + Data[i].image}
                             alt="zealicon"
                             style="
-                                width: 90%; height: 80%; margin: auto;
+                                width: 90%; height: 85%; margin: auto;  padding-top: 20px; padding-bottom: 20px;
                             "
                             />
                         </div>
@@ -192,8 +192,15 @@
                                 }</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-                                <div class="modal-body">
-                                    ${Data[i].description}
+                            <div class="modal-body">
+                                    <p>${Data[i].description}</p>
+                                    ${
+                                      Data[i].register
+                                        ? `<a href="/register.html" class="btn btn-primary" style="margin-top: 20px;">
+                                          Register Now
+                                        </a>`
+                                        : ""
+                                    }
                                 </div>
                             </div>
                             </div>
