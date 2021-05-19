@@ -9,7 +9,7 @@
       "modal_img": "",
       "date": "",
       "venue": "",
-      "register": "",
+      "register": "./register",
       "button": "View More"
     },
     {
@@ -37,7 +37,7 @@
       "button": "View More"
     },
     {
-      "image": "Ideathon.jpg",
+      "image": "E-Summit.jpg",
       "name": "Ideathon",
       "description": "A brainstorming event built to provide the most efficient & innovative solutions to given problem statements. Ideathon is conducted in four phases and concludes with participants pitching their ideas in front of a reputed jury. Held over a week, the event encompasses learning for all the participants and attendees.Through Ideathon, EDC aspires to provide the right platform to affirmative ideas, for guiding the young and tender minds on how to blossom these ideas into investable products through mentorship and support.It helps future entrepreneurs to familiarise themselves with the pitching and funding process.",
       "count": "4",
@@ -49,7 +49,7 @@
       "button": "View More"
     },
     {
-      "image": "Ideathon.jpg",
+      "image": "E-Summit.jpg",
       "name": "Entrepreneurship Awareness Camp",
       "description": "",
       "count": "5",

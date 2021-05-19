@@ -259,6 +259,6 @@ body {
   margin: 5px !important;
 }
 
-.container {
+section .container {
   max-width: 1140px !important;
 }
