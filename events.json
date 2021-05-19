@@ -1,39 +1,64 @@
 {
-    "events": [
-        {
-           "image": "Orientation.jpg",
-           "name": "Orientation Programme",
-           "description": "The Entrepreneurship Development Cell was created with the sole motive to bring out the entrepreneur resting inside each student and to fuel the minds of young visionaries with ideas. So, keeping in mind our ideals, every year the entrepreneurship development cell organizes its orientation program. Through activities and games, EDC introduces the freshers to the intricacies of entrepreneurship and the functioning of our cell. The program is a combination of interactive presentations and fun events blended to hold the attention of the crowd gathered. The event takes place in August every year, i.e. the beginning of the new session.",
-           "count": "1",
-           "button": "View More"
-        },
-        {
-            "image": "E-Summit.jpg",
-            "name": "E-Summit Noida",
-            "description": "Our flagship event, the Entrepreneurship Summit of Noida, is conducted on an annual basis by us. Through this event, we strive to cater to the student community with top-notch entities from the corporate world and exciting opportunities. The Summit is a plethora of events that aim at fostering the spirit of entrepreneurship in students and ignite the flame of innovative ideas in their minds. This event brings together the leaders in the field of entrepreneurship, startups, and aspiring entrepreneurs under one roof. E-Summit is a 2-day event and it is conducted in April every year, bringing huge participation of students seeking exposure to the world of entrepreneurship and looking for a platform to hone their skills.",
-            "count": "2",
-            "button": "View More"
-        },
-        {
-            "image": "Ojaswini.jpg",
-            "name": "Startup Charcha",
-            "description": "A mini-conclave having professionals discussing subjects of the corporate arena. Start-up Charcha is an event organized by EDC to make the students familiar with the basic ideas behind starting a start-up. Guest speakers are invited to provide insights into the startup scene that is taking India by storm. It provides a forum for entrepreneurs, members of startups, small business owners, and students to come together to gain insights that will lead to better productivity and business success. In addition to an opening lesson and expert guest speakers, there is a group discussion, as well as a group Q&A session that is designed to help everyone learn. Many business enthusiasts, students of ECell, and start-up founders attend the event with full enthusiasm.",
-            "count": "3",
-            "button": "View More"
-        },
-        {
-            "image": "Ideathon.jpg",
-            "name": "Ideathon",
-            "description": "A brainstorming event built to provide the most efficient & innovative solutions to given problem statements. Ideathon is conducted in four phases and concludes with participants pitching their ideas in front of a reputed jury. Held over a week, the event encompasses learning for all the participants and attendees.Through Ideathon, EDC aspires to provide the right platform to affirmative ideas, for guiding the young and tender minds on how to blossom these ideas into investable products through mentorship and support.It helps future entrepreneurs to familiarise themselves with the pitching and funding process.",
-            "count": "4",
-            "button": "View More"
-        },
-        {
-            "image": "",
-            "name": "Entrepreneurship Awareness Camp",
-            "description": "",
-            "count": "5",
-            "button": "Register Now"
-        }
-    ]
+  "events": [
+    {
+      "image": "Orientation.jpg",
+      "name": "Orientation Programme",
+      "description": "The Entrepreneurship Development Cell was created with the sole motive to bring out the entrepreneur resting inside each student and to fuel the minds of young visionaries with ideas. So, keeping in mind our ideals, every year the entrepreneurship development cell organizes its orientation program. Through activities and games, EDC introduces the freshers to the intricacies of entrepreneurship and the functioning of our cell. The program is a combination of interactive presentations and fun events blended to hold the attention of the crowd gathered. The event takes place in August every year, i.e. the beginning of the new session.",
+      "count": "1",
+      "short": "The Entrepreneurship Development Cell was created with the sole motive to bring out the entrepreneur resting inside each student and to fuel the minds of young visionaries with ideas.",
+      "modal_img": "",
+      "date": "",
+      "venue": "",
+      "register": "",
+      "button": "View More"
+    },
+    {
+      "image": "E-Summit.jpg",
+      "name": "E-Summit Noida",
+      "description": "Our flagship event, the Entrepreneurship Summit of Noida, is conducted on an annual basis by us. Through this event, we strive to cater to the student community with top-notch entities from the corporate world and exciting opportunities. The Summit is a plethora of events that aim at fostering the spirit of entrepreneurship in students and ignite the flame of innovative ideas in their minds. This event brings together the leaders in the field of entrepreneurship, startups, and aspiring entrepreneurs under one roof. E-Summit is a 2-day event and it is conducted in April every year, bringing huge participation of students seeking exposure to the world of entrepreneurship and looking for a platform to hone their skills.",
+      "count": "2",
+      "short": "The Entrepreneurship Development Cell was created with the sole motive to bring out the entrepreneur resting inside each student and to fuel the minds of young visionaries with ideas.",
+      "modal_img": "",
+      "date": "",
+      "venue": "",
+      "register": "",
+      "button": "View More"
+    },
+    {
+      "image": "Ojaswini.jpg",
+      "name": "Startup Charcha",
+      "description": "A mini-conclave having professionals discussing subjects of the corporate arena. Start-up Charcha is an event organized by EDC to make the students familiar with the basic ideas behind starting a start-up. Guest speakers are invited to provide insights into the startup scene that is taking India by storm. It provides a forum for entrepreneurs, members of startups, small business owners, and students to come together to gain insights that will lead to better productivity and business success. In addition to an opening lesson and expert guest speakers, there is a group discussion, as well as a group Q&A session that is designed to help everyone learn. Many business enthusiasts, students of ECell, and start-up founders attend the event with full enthusiasm.",
+      "count": "3",
+      "short": "The Entrepreneurship Development Cell was created with the sole motive to bring out the entrepreneur resting inside each student and to fuel the minds of young visionaries with ideas.",
+      "modal_img": "",
+      "date": "",
+      "venue": "",
+      "register": "",
+      "button": "View More"
+    },
+    {
+      "image": "Ideathon.jpg",
+      "name": "Ideathon",
+      "description": "A brainstorming event built to provide the most efficient & innovative solutions to given problem statements. Ideathon is conducted in four phases and concludes with participants pitching their ideas in front of a reputed jury. Held over a week, the event encompasses learning for all the participants and attendees.Through Ideathon, EDC aspires to provide the right platform to affirmative ideas, for guiding the young and tender minds on how to blossom these ideas into investable products through mentorship and support.It helps future entrepreneurs to familiarise themselves with the pitching and funding process.",
+      "count": "4",
+      "short": "The Entrepreneurship Development Cell was created with the sole motive to bring out the entrepreneur resting inside each student and to fuel the minds of young visionaries with ideas.",
+      "modal_img": "",
+      "date": "",
+      "venue": "",
+      "register": "",
+      "button": "View More"
+    },
+    {
+      "image": "Ideathon.jpg",
+      "name": "Entrepreneurship Awareness Camp",
+      "description": "",
+      "count": "5",
+      "short": "The Entrepreneurship Development Cell was created with the sole motive to bring out the entrepreneur resting inside each student and to fuel the minds of young visionaries with ideas.",
+      "modal_img": "",
+      "date": "",
+      "venue": "",
+      "register": "",
+      "button": "Register Now"
+    }
+  ]
 }
