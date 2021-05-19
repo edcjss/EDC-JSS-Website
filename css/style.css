@@ -144,6 +144,7 @@ p {
 
 .why h3 {
   margin-bottom: 1rem;
+  margin-left: 10px;
 }
 
 .brag {
@@ -259,7 +260,8 @@ footer {
   color: white;
   margin-top: 10px;
   border-radius: 10px 10px 0 0;
-  /* width: 90%; */
+  width: 90% !important;
+  margin: auto;
 }
 
 .img {
