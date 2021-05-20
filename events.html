@@ -1,121 +1,282 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-3SED2G3FMW"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
+      gtag("config", "G-3SED2G3FMW");
+    </script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./img/favicon.ico"
+      type="image/x-icon"
+      sizes="16x16"
+    />
+    <!-- Primary Meta Tags -->
+    <title>EDC JSSATE Noida</title>
+    <meta name="title" content="EDC JSSATE Noida" />
+    <meta
+      name="description"
+      content="ECell JSSATE Noida is a consortium of Imagineers working towards manifesting the latent entrepreneurial spirit of young students"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://edcjss.in/" />
+    <meta property="og:title" content="EDC JSSATE Noida" />
+    <meta
+      property="og:description"
+      content="ECell JSSATE Noida is a consortium of Imagineers working towards manifesting the latent entrepreneurial spirit of young students"
+    />
+    <meta property="og:image" content="./img/logo1.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://edcjss.in/" />
+    <meta property="twitter:title" content="EDC JSSATE Noida" />
+    <meta
+      property="twitter:description"
+      content="ECell JSSATE Noida is a consortium of Imagineers working towards manifesting the latent entrepreneurial spirit of young students"
+    />
+    <meta property="twitter:image" content="./img/logo1.png" />
     <!-- CSS only -->
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="./css/flip2.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/events_card.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;1,300&display=swap"
-        rel="stylesheet" />
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <title>Events | EDCJSS</title>
-</head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
 
-<body>
+    <title>EDCJSS | Home</title>
+  </head>
+
+  <body>
     <div class="main">
-        <!-- Navbar Start-->
+      <!-- Navbar Start-->
 
-        <div class="nav">
-            <div class="container">
-                <div class="row row1">
-                    <div class="col-md-2 col-6 s1">
-                        <a class="navbar-brand" href="./index.html">
-                            <img class="logo2" src="./img/logo_w_white-outerglow-3.png" width="75px" />
-                        </a>
-                    </div>
-                    <div class="col-md-10 col-6 navbar" style="justify-content: flex-end">
-                        <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
-
-                        <a class="nav-link" href="./about.html">About Us</a>
-
-                        <a class="nav-link" href="./events.html">Events</a>
-
-                        <a class="nav-link" href="./team.html">Team</a>
-
-                        <a class="nav-link" href="./initiatives.html">Initiatives</a>
-
-                        <a class="nav-link" href="./contact.html">Contact Us</a>
-
-                        <i class="material-icons" id="menu" onclick="openNav()" style="color: black">menu</i>
-                    </div>
-                </div>
+      <div class="nav">
+        <div class="container">
+          <div class="row row1">
+            <div class="col-md-2 col-6 s1">
+              <a class="navbar-brand" href="./index.html">
+                <img
+                  class="logo2"
+                  src="./img/logo_w_white-outerglow-3.png"
+                  width="75px"
+                />
+              </a>
             </div>
-        </div>
-        <!-- Mobile menu -->
-        <div id="mobile__menu" class="overlay" style="z-index: 999999">
-            <div class="overlay__content">
-                <a href="./index.html" class="mobile-link">Home</a>
-                <a href="./about.html" class="mobile-link">About Us</a>
-                <a href="./events.html" class="mobile-link">Events</a>
-                <a href="./team.html" class="mobile-link">Team</a>
-                <a href="./initiatives.html" class="mobile-link">Initiatives</a>
-                <a href="./contact.html" class="mobile-link">Contact Us</a>
-            </div>
-        </div>
+            <div
+              class="col-md-10 col-6 navbar"
+              style="justify-content: flex-end"
+            >
+              <a class="nav-link" href="./index.html"
+                >Home<span class="sr-only">(current)</span></a
+              >
 
-        <!--Navbar Ends-->
-        <!-- Main Body Section with content-->
-        <div>
-            
+              <a class="nav-link" href="./about.html">About Us</a>
+
+              <a class="nav-link" href="./events.html">Events</a>
+
+              <a class="nav-link" href="./team.html">Team</a>
+
+              <a class="nav-link" href="./initiatives.html">Initiatives</a>
+
+              <a class="nav-link" href="./contact.html">Contact Us</a>
+
+              <i
+                class="material-icons"
+                id="menu"
+                onclick="openNav()"
+                style="color: black"
+                >menu</i
+              >
+            </div>
+          </div>
         </div>
-        <!-- Main Body Section with content ends-->
-        <!--  Footer Section-->
-        <footer class="footer">
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-12">
-                        <div class="img">
-                            <img src="./img/logo.png" alt="" width="200px" />
+      </div>
+      <!-- Mobile menu -->
+      <div id="mobile__menu" class="overlay" style="z-index: 999999">
+        <div class="overlay__content">
+          <a href="./index.html" class="mobile-link">Home</a>
+          <a href="./about.html" class="mobile-link">About Us</a>
+          <a href="./events.html" class="mobile-link">Events</a>
+          <a href="./team.html" class="mobile-link">Team</a>
+          <a href="./initiatives.html" class="mobile-link">Initiatives</a>
+          <a href="./contact.html" class="mobile-link">Contact Us</a>
+        </div>
+      </div>
+
+      <!--Navbar Ends-->
+
+      <!-- Main Body Section with content-->
+
+      <div class="container text-center" style="margin-top: 6.5rem;">
+        <div class="row">
+          <h1>Our Events</h1>
+        </div>
+      </div>
+
+      <div class="container" id="event_space"></div>
+
+      <script type="text/javascript">
+        fetch("events.json")
+          .then((res) => res.json())
+          .then((data) => {
+            // Getting data
+            var Data = data.events;
+            for (var i = 0; i < Data.length; i++) {
+              var box = document.createElement("div");
+              box.setAttribute("class", "box");
+
+              var html = `<div class="project__card mb-5" style="box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.3);">
+                        <div class="row tiles g-0">
+                        <div
+                            class="project__image col-lg-5 col-12"
+                            style="
+                            background-color: #F0C630;
+                            "            >
+                            <img
+                            src=${"./img/events/" + Data[i].image}
+                            alt="zealicon"
+                            style="
+                                width: 90%; height: 85%; margin: auto;  padding-top: 20px; padding-bottom: 20px;
+                            "
+                            />
+                        </div>
+                        <div class="project__content col-lg-7 p-5 col-12">
+                            <h3 class="mb-3">${Data[i].name}</h3>
+                            <p class="mb-2" id=${"data" + Data[i].count}>
+                            ${Data[i].short}
+                            </p>
+                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target=${
+                              "#modal" + Data[i].count
+                            } style="margin-top: 20px;">
+                                Learn More
+                            </button>
+                        </div>
                         </div>
                     </div>
-                    <div class="col-12 text-center i-links">
-                        <ul class="social">
-                            <li>
-                                <a href="https://twitter.com/cell_edc" target="_blank"><i class="fa fa-twitter"
-                                        aria-hidden="true"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.facebook.com/ecell.jssaten" target="_blank"><i
-                                        class="fa fa-facebook-official" aria-hidden="true"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/ecelljss/" target="_blank"><i class="fa fa-instagram"
-                                        aria-hidden="true"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/company/edc-jssate/" target="_blank"><i
-                                        class="fa fa-linkedin" aria-hidden="true"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <p class="copyright col-12">
-                        &copy; Copyright | EDC JSSATEN | 2021
-                    </p>
-                </div>
-            </div>
-        </footer>
-        <!-- Footer Section Ends-->
-    </div>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="./js/contact.js"></script>
-</body>
 
+                    <div class="modal fade" id=${
+                      "modal" + Data[i].count
+                    } tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 999999;">
+                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">${
+                                  Data[i].name
+                                }</h5>
+                                <button type="button" class="remove" data-bs-dismiss="modal" aria-label="Close" style="border: 0; background: white;"><i class="fa fa-remove fawesome" aria-hidden="true" style="font-size: 1.6rem"></i></button>
+                                </div>
+                            <div class="modal-body">
+                                    <p class="modal_info">${Data[i].description}</p>
+                                    <img src=${"./img/events/" + Data[i].image} alt="" class="modal_img">
+                                    ${
+                                      Data[i].register
+                                        ? `<a href="/register.html" class="btn btn-primary" style="margin-top: 20px; margin-left: 2rem">
+                                          Register Now
+                                        </a>`
+                                        : ""
+                                    }
+                                </div>
+                            </div>
+                            </div>
+                        </div>`;
+
+              box.innerHTML = html;
+              document.getElementById("event_space").appendChild(box);
+            }
+          });
+      </script>
+      <!-- Main Body Section with content ends-->
+
+      <!--  Footer Section-->
+      <footer class="footer">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12">
+              <div class="img">
+                <img src="./img/logo.png" alt="" width="150px" />
+              </div>
+            </div>
+            <div class="col-12 text-center i-links">
+              <ul class="social">
+                <li>
+                  <a href="https://twitter.com/cell_edc" target="_blank"
+                    ><i class="fa fa-twitter" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.facebook.com/ecell.jssaten"
+                    target="_blank"
+                    ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/ecelljss/" target="_blank"
+                    ><i class="fa fa-instagram" aria-hidden="true"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.linkedin.com/company/edc-jssate/"
+                    target="_blank"
+                    ><i class="fa fa-linkedin" aria-hidden="true"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <p class="copyright col-12">
+              &copy; Copyright | EDC JSSATEN | 2021
+            </p>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer Section Ends-->
+    </div>
+  </body>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="./js/contact.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://code.jquery.com/jquery-2.2.0.min.js"
+    type="text/javascript"
+  ></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </html>

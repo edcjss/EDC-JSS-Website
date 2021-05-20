@@ -1,10 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3SED2G3FMW"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-3SED2G3FMW');
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" sizes="16x16">  
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" sizes="16x16">
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="EDC JSSATE Noida" />
+    <meta
+      name="description"
+      content="ECell JSSATE Noida is a consortium of Imagineers working towards manifesting the latent entrepreneurial spirit of young students"
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://edcjss.in/" />
+    <meta property="og:title" content="EDC JSSATE Noida" />
+    <meta
+      property="og:description"
+      content="ECell JSSATE Noida is a consortium of Imagineers working towards manifesting the latent entrepreneurial spirit of young students"
+    />
+    <meta property="og:image" content="./img/logo1.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="http://edcjss.in/" />
+    <meta property="twitter:title" content="EDC JSSATE Noida" />
+    <meta
+      property="twitter:description"
+      content="ECell JSSATE Noida is a consortium of Imagineers working towards manifesting the latent entrepreneurial spirit of young students"
+    />
+    <meta property="twitter:image" content="./img/logo1.png" />  
     <!-- CSS only -->
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -70,8 +105,8 @@
                     <div class="row">
                         <!--<div class="img1">-->
                             <div class="txt1">
-                                <h1>Our Initiatives</h1>
-                                <p>We at E-Cell, JSSATEN believe that entrepreneurship is the key to India’s development. To fulfill this vision, we have conceptualized & successfully implemented various initiatives to help students, young entrepreneurs & professionals in their entrepreneurial journey.</p>
+                                <h1 class="title">Our Initiatives</h1>
+                                <p class="modal_info">We at E-Cell, JSSATEN believe that entrepreneurship is the key to India’s development. To fulfill this vision, we have conceptualized & successfully implemented various initiatives to help students, young entrepreneurs & professionals in their entrepreneurial journey.</p>
                             </div>
                         <!--</div>-->
                     </div>
@@ -82,7 +117,7 @@
                 <div class="row" style="justify-content: space-evenly; display: flex;">
                     <div class="col-lg-5 col-10 tile">
                         <!--<div class="txt">-->
-                            <div class="col-sm-6 col-12 tbox">
+                            <div class="col-md-6 col-12 tbox">
                                 <h3>Financial Literacy Club</h3>
                                 <p>
                                     The club was founded in January 2021. to provide young adults with the necessary personal finance knowledge, to comprehend how business grows, and learn money investing skills in an interactive setting.
@@ -91,8 +126,8 @@
                                     Learn More
                                 </button>
                             </div>
-                            <div class="col-sm-6 col-12 img_tile" id="flc">
-                                <img src="./img/Financial Literacy Club.jpg" class="tile_img" alt="">
+                            <div class="col-md-6 col-12 img_tile" id="flc">
+                                <img src="./img/initiatives/flc-innitiative-page.png" class="tile_img" alt="">
                             </div>     
                         <!--</div>-->
                     </div>
@@ -102,24 +137,22 @@
                         <div class="modal-content">
                             <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Financial Literacy Club</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="remove" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-remove fawesome" aria-hidden="true" style="font-size: 1.6rem"></i></button>
                             </div>
                             <div class="modal-body">
-                                The club was founded in January 2021. to provide young adults with the necessary personal finance knowledge, to comprehend how business grows, and learn money investing skills in an interactive setting. The root idea is to make our peers understand the psychology of money and ways in which we can apply financial wisdom to grow our money.
+                                <p class="modal_info">The club was founded in January 2021. to provide young adults with the necessary personal finance knowledge, to comprehend how business grows, and learn money investing skills in an interactive setting. The root idea is to make our peers understand the psychology of money and ways in which we can apply financial wisdom to grow our money.</p>
                                 <img src="./img/Financial Literacy Club.jpg" alt="" class="modal_img">
-                                Though in our nascent stage, at FLC, our goal is to encourage young people to put in cognizant efforts towards making informed financial decisions from the beginning to have a more secure financial future and to avoid the common financial pitfalls that many adults face.
+                                <p class="modal_info">Though in our nascent stage, at FLC, our goal is to encourage young people to put in cognizant efforts towards making informed financial decisions from the beginning to have a more secure financial future and to avoid the common financial pitfalls that many adults face.</p>
+                                
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <!--<button type="button" class="btn btn-primary">View More</button>-->
-                            </div>
+                            
                         </div>
                         </div>
                     </div>
                     <!-- Model End-->
                     <div class="col-lg-5 col-10 tile">
                         <!--<div class="txt">-->
-                            <div class="col-sm-6 col-12 tbox">
+                            <div class="col-md-6 col-12 tbox">
                                 <h3>Women Empowerment Club</h3>
                                 <p>
                                     Ojaswini is the name we gave to the social drive launched by EDC that solely targets the local women doing small business on their own.
@@ -129,8 +162,8 @@
                                     Learn More
                                 </button>
                             </div>
-                            <div class="col-sm-6 col-12 img_tile" id="wec">
-                                <img src="./img/ojaswini.jpg" class="tile_img" alt="">
+                            <div class="col-md-6 col-12 img_tile" id="wec">
+                                <img src="./img/initiatives/ojaswini_initiative_img.png" class="tile_img" alt="">
                             </div>     
                         <!--</div>-->
                     </div>
@@ -140,19 +173,16 @@
                         <div class="modal-content">
                             <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Women Empowerment Club</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="remove" data-bs-dismiss="modal" aria-label="Close"><i class="fa fa-remove fawesome" aria-hidden="true" style="font-size: 1.6rem"></i></button>
                             </div>
                             <div class="modal-body">
-                                Ojaswini is the name we gave to the social drive launched by EDC that solely targets the local women doing small business on their own.
-                                The drive was brought to the mainstage with the help of "Women Entrepreneurship and Empowerment(WEE) Foundation".
+                                <p class="modal_info">Ojaswini is the name we gave to the social drive launched by EDC that solely targets the local women doing small business on their own.
+                                The drive was brought to the mainstage with the help of "Women Entrepreneurship and Empowerment(WEE) Foundation".</p>
                                 <img src="./img/ojaswini.jpg" alt="" class="modal_img">
-                                We reach out to women owning small businesses and extend our help by getting them enrolled in government schemes and provide guidance by professionals and making them aware of their rights as a citizen of our nation.
-                                This event is organized to celebrate the essence of woman entrepreneurs in every field and endorse the spirit of women empowerment among the youth in attendance.
+                                <p class="modal_info">We reach out to women owning small businesses and extend our help by getting them enrolled in government schemes and provide guidance by professionals and making them aware of their rights as a citizen of our nation.
+                                This event is organized to celebrate the essence of woman entrepreneurs in every field and endorse the spirit of women empowerment among the youth in attendance.</p>
                             </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                            <!--<button type="button" class="btn btn-primary">View More</button>-->
-                            </div>
+                            
                         </div>
                         </div>
                     </div>
@@ -161,59 +191,6 @@
                 </div>
             </div>
             
-            <!--
-            <div class="whatwedo text-center container">-->
-                <!--<h1>What We Do?</h1>-->
-                <!--<div class="row" style="justify-content: center;">
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                            <div class="mainflip">
-                                <div class="frontside">
-                                    <div class="card">
-                                        <div class="card-body text-center">
-                                            <p><img src="./img/expert.png" alt="" width="300px"></p>
-                                            <h4 class="card-title">Financial Literacy Club</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="backside">
-                                    <div class="card">
-                                        <div class="card-body text-center mt-4">
-                                            <h4 class="card-title">Financial Literacy Clubs</h4>
-                                            <p class="card-text">The big shots of the entrepreneurial world visit the college to share their journey, inspire and aware students of the ongoing scenarios in the corporate sector.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-6 col-md-4">
-                        <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
-                            <div class="mainflip">
-                                <div class="frontside">
-                                    <div class="card">
-                                        <div class="card-body text-center">
-                                            <p><img src="./img/incubation.png" alt="" width="300px"></p>
-                                            <h4 class="card-title">Women Empowerment Club</h4>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="backside">
-                                    <div class="card">
-                                        <div class="card-body text-center mt-4">
-                                            <h4 class="card-title">Women Empowerment Club</h4>
-                                            <p class="card-text">The survival rate of startups coming out of incubators is 92% high. We nurture your ideas and provide all sorts of help so that the idea deserves it's worth.
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            -->
         </div>
         <!-- Main Body Section with content ends-->
         
@@ -223,7 +200,7 @@
                 <div class="row text-center">
                     <div class="col-12">
                         <div class="img">
-                            <img src="./img/logo.png" alt="" width="130px">
+                            <img src="./img/logo.png" alt="" width="150px">
                         </div>
                     </div>
                     <div class="col-12 text-center i-links">
@@ -237,17 +214,6 @@
                     <p class="copyright">&copy; Copyright | EDC JSSATEN | 2021</p>
                 </div>
             </div>
-            <!--
-            <div class="container text-center" style="padding-top: 10px;
-            margin-bottom: -10px;">
-                
-            </div> 
-            
-            <div class="text-center pt-3 pb-2 copyright" style="color: #f1f1f1; padding-top: 5px!important;">
-                
-            </div> 
-            -->
-            <!-- </div>         -->
         </footer>
         <!-- Footer Section Ends-->
     </div>
@@ -259,10 +225,5 @@
     <script src="https://smtpjs.com/v3/smtp.js">
     </script>
     <script src="./js/contact.js"></script>
-    <script src="./js/carousel.js"></script>
-    <script src="./js/typewriter.js"></script>
 </body>
 </html>
-
-
-<!--https://jamboard.google.com/d/1foV7fG0_cabfFWFSoJwlVMY3LXTQxPeMIuASVZBjG_E/viewer?f=0-->
