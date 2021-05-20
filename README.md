@@ -53,6 +53,11 @@ Then add a title and description to your pull request that explains your preciou
 		
 Click on `Compare and Pull Request`
 
+<h2 align= "left"><b>Note</b></h2>
+
+- To update the event details, make changes to the particular object in `events.json`
+- To update the registration link, find the Google form embed link in `register.html`
+
 <h2 align= "left"><b>Follow us here</b></h2>
 
 - [Facebook](https://www.facebook.com/ecell.jssaten)
