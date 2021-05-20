@@ -44,28 +44,10 @@ p {
   padding: 10px 0px;
   z-index: 99999;
 }
-/*
-.row1, .s1, .s1 img, .navbar, .nav-link{
-    background-color: #202124;
-}
-*/
-.nav li {
-  list-style: none !important;
-}
-/*
-.navbar a{
-    margin-left: 40px;
-}
-*/
 .navbar {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
-
-.navbar div {
-  margin-right: 40px;
-}
-
 .nav-link {
   font-weight: 700;
 }
@@ -84,12 +66,6 @@ p {
     display: none !important;
   }
 }
-
-/*.content{
-    background-color: #f7f7f7;
-}*/
-
-
 .content {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -105,38 +81,6 @@ p {
   margin: auto;
   margin-bottom: 1.5rem;
 }
-
-.text-wrapper {
-  padding: 10% 10%;
-  background-image: url(../img/bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  text-align: right;
-}
-
-.about-us {
-  /*background-color: #434343;*/
-  padding: 1.5rem;
-  color: #f1f1f1;
-}
-
-.about-us p {
-  font-size: 1rem;
-  font-weight: 300;
-}
-/*
-.about-us{
-    margin: 1.5rem 10%;
-}
-
-.why h3{
-    margin-bottom: 0.325rem;
-    background-color: #f1f1f1;
-    padding: 5px;
-}
-*/
-
 .why {
   margin: 1.5rem 0;
 }
@@ -166,7 +110,6 @@ p {
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
-  /*background-color: #434343;*/
   padding: 5px;
   margin: 1.5rem 0;
 }
@@ -236,11 +179,6 @@ p {
   margin: 0 10px;
   color: gray;
 }
-
-.social > i:hover {
-  color: #0066b2;
-}
-
 footer {
   background-color: #f1f1f1;
   color: #333333;
@@ -275,65 +213,32 @@ footer {
   justify-content: center;
   margin: 25px 0;
 }
-
-@media (max-width: 900px) and (min-width: 768px) {
-  .foot1 {
-    margin-top: 0px !important;
-  }
-}
-
 @media (min-width: 1400px) {
-  /*.stats{
-        max-width: 1320px;
-        margin: auto;
-    }*/
   nav {
     padding: 0px 100px !important;
   }
 }
 
 @media (min-width: 1200px) and (max-width: 1400px) {
-  /*.stats{
-        max-width: 1140px;
-        margin: auto;
-    }*/
   nav {
     padding: 0px 88px !important;
   }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
-  /*.stats{
-        max-width: 960px;
-        margin: auto;
-    }*/
   nav {
     padding: 0px 76px !important;
   }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
-  /*.stats{
-        max-width: 720px;
-        margin: auto;
-    }*/
   nav {
     padding: 0px 64px !important;
   }
 }
 
 @media (min-width: 576x) and (max-width: 768px) {
-  /*.stats{
-        max-width: 540px;
-        margin: auto;
-    }*/
   nav {
     padding: 0px 48px !important;
   }
-}
-
-@media (max-width: 768px) {
-  /*#menu{
-        margin-right: 40px;
-    }*/
 }
