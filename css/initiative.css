@@ -36,6 +36,7 @@
   border-bottom: 2px solid #0066b2;
 }
 
+
 #flc {
   background-color: #1886b7;
   border-radius: 0 10px 10px 0;
@@ -50,6 +51,7 @@
   height: auto;
   margin: 2rem 5%;
 }
+
 
 @media (max-width: 767.98px) {
   .tile {
@@ -73,6 +75,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 
 .tile_img {
