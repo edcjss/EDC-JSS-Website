@@ -1,16 +1,7 @@
-.main_content {
-  margin-top: 7rem;
-  margin-bottom: 3rem;
-}
-.event_tile {
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
-}
 .project__image {
   display: flex;
 }
-.image_tile{
+.image_tile {
   width: 95%;
   height: 95%;
   margin: auto;
@@ -34,14 +25,14 @@
   .project__image {
     background-color: #ffffff;
   }
-} ;
+}
 
-.remove{
+.remove {
   border: 0 !important;
   background: white !important;
 }
 
-.fawesome{
+.fawesome {
   margin-right: 2rem;
   padding: 0.5rem;
   border-radius: 50%;
@@ -65,16 +56,12 @@
   font-size: 1.5rem;
   margin-top: 0.5rem;
 }
-.title {
-  margin: 1.2rem;
-  font-size: 3rem !important;
-}
 .modal_img {
   width: 90%;
   height: auto;
   margin: 2rem 5%;
 }
-.modal-body{
+.modal-body {
   display: flex;
   align-items: center;
   flex-direction: column;

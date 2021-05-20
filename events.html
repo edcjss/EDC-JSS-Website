@@ -136,12 +136,11 @@
         </div>
       </div>
 
-
       <!--Navbar Ends-->
 
       <!-- Main Body Section with content-->
 
-      <div class="container text-center" style="margin-top: 6.5rem;">
+      <div class="container text-center" style="margin-top: 6.5rem">
         <div class="row">
           <h1>Our Events</h1>
         </div>
@@ -181,12 +180,12 @@
                                 Learn More
                             </button>
                             ${
-                                      Data[i].register
-                                        ? `<a href="/register" class="btn btn-primary" style="margin-top: 20px; margin-left: 2rem">
+                              Data[i].register
+                                ? `<a href="/register" class="btn btn-primary" style="margin-top: 20px; margin-left: 2rem">
                                           Register Now
                                         </a>`
-                                        : ""
-                                    }
+                                : ""
+                            }
                         </div>
                         </div>
                     </div>
@@ -209,9 +208,13 @@
                                         ? `Event Date:  ${Data[i].date}`
                                         : ""
                                     }</h6>
-                                    <p class="modal_info">${Data[i].description}</p>
+                                    <p class="modal_info">${
+                                      Data[i].description
+                                    }</p>
                                     
-                                    <img src=${"./img/events/" + Data[i].image} alt="" class="modal_img">
+                                    <img src=${
+                                      "./img/events/" + Data[i].image
+                                    } alt="" class="modal_img">
                                     ${
                                       Data[i].register
                                         ? `<a href="/register" class="btn btn-primary" style="margin-top: 20px; font-size: 1.5rem">

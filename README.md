@@ -1,14 +1,15 @@
 # EDC-JSS-Website
+
 A simple website guiding visitors about EDCJSS, its vision, goals, events, past guests, partners, and sponsors.
 
-  Visit here : [edcjss.in](http://edcjss.in/)
+Visit here : [edcjss.in](http://edcjss.in/)
 
 <h2 align= "left"><b>Tech Stack🧐</b></h2>
 
 - **Frontend**: HTML5, CSS3, JavaScript, Bootstrap
 - **IDE**: VS Code
 - **Version Control**: Git and GitHub
-- **Hosting**:  Netlify
+- **Hosting**: Netlify
 
 <h2 align= "left"><b>Steps</b></h2>
 
@@ -35,22 +36,22 @@ git checkout -b <your_branch_name>
 **5.** Make changes in source code.
 
 **6.** Commit your changes.
+
 ```terminal
 git add .
 git commit -m "Message"
 ```
 
 **7.** Push your local branch to the remote repository.
+
 ```terminal
 git push -u origin <your_branch_name>
 ```
 
 **8.** Create a Pull Request!
 
-
 Finally, go to your repository in the browser and click on `compare and pull requests`.
 Then add a title and description to your pull request that explains your precious effort.
-		
 Click on `Compare and Pull Request`
 
 <h2 align= "left"><b>Note</b></h2>
@@ -65,7 +66,8 @@ Click on `Compare and Pull Request`
 - [LinkedIn](https://www.linkedin.com/company/edc-jssate/)
 - [Twitter](https://twitter.com/cell_edc)
 
-## Connect with us  
+## Connect with us
+
 <div align="center">
  <a href="https://dscjss.in/"><img src="https://user-images.githubusercontent.com/42115530/94302134-5c28c680-ff89-11ea-9ca4-5dcdd4279786.png"  height=100px /></a> <br><br> 
 <a href="https://github.com/DSC-JSS-NOIDA" target="_blank">
@@ -89,4 +91,4 @@ Click on `Compare and Pull Request`
 <a href="https://www.youtube.com/channel/UCkELk5JFDceaSf8pBa19kDQ" target="_blank">
 <img src=https://img.shields.io/badge/youtube-%23FF0000.svg?&style=for-the-badge&logo=youtube&logoColor=white alt=youtube style="margin-bottom: 5px;" />
 </a> 
-</div> 
+</div>

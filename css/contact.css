@@ -129,11 +129,6 @@ textarea {
   height: 120px;
   margin-bottom: 20px;
 }
-#subject {
-  margin-top: -6px;
-  overflow: auto;
-}
-
 .container1 input[type="submit"] {
   background-color: #0066b2;
   color: white;
@@ -167,17 +162,6 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-
-.icon1 {
-  display: flex;
-  align-items: flex-end;
-}
-
-.text1 {
-  display: flex;
-  align-items: flex-start;
-}
-
 .form1 {
   font-family: "Roboto", sans-serif;
   margin: 5px 15%;
