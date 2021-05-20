@@ -136,11 +136,18 @@
         </div>
       </div>
 
+
       <!--Navbar Ends-->
 
       <!-- Main Body Section with content-->
 
-      <div class="container" id="event_space" style="margin-top: 6rem"></div>
+      <div class="container text-center" style="margin-top: 6.5rem;">
+        <div class="row">
+          <h1>Our Events</h1>
+        </div>
+      </div>
+
+      <div class="container" id="event_space"></div>
 
       <script type="text/javascript">
         fetch("events.json")
@@ -156,15 +163,11 @@
                         <div class="row tiles g-0">
                         <div
                             class="project__image col-lg-5 col-12"
-                            style="
-                            background-color: #F0C630;
-                            "            >
+                                        >
                             <img
                             src=${"./img/events/" + Data[i].image}
                             alt="zealicon"
-                            style="
-                                width: 90%; height: 85%; margin: auto;  padding-top: 20px; padding-bottom: 20px;
-                            "
+                            class="image_tile"
                             />
                         </div>
                         <div class="project__content col-lg-7 p-5 col-12">
@@ -177,6 +180,13 @@
                             } style="margin-top: 20px;">
                                 Learn More
                             </button>
+                            ${
+                                      Data[i].register
+                                        ? `<a href="/register.html" class="btn btn-primary" style="margin-top: 20px; margin-left: 2rem">
+                                          Register Now
+                                        </a>`
+                                        : ""
+                                    }
                         </div>
                         </div>
                     </div>
@@ -184,19 +194,27 @@
                     <div class="modal fade" id=${
                       "modal" + Data[i].count
                     } tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" style="z-index: 999999;">
-                            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg">
+                            <div class="modal-dialog modal-dialog-centered modal-lg">
                             <div class="modal-content">
                                 <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">${
+                                <h5 class="modal-title" id="exampleModalLabel" style="text-align: center; width: 100%;">${
                                   Data[i].name
                                 }</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+
+                                <button type="button" class="remove" data-bs-dismiss="modal" aria-label="Close" style="border: 0; background: white;"><i class="fa fa-remove fawesome" aria-hidden="true" style="font-size: 1.6rem"></i></button>
                                 </div>
                             <div class="modal-body">
-                                    <p>${Data[i].description}</p>
+                                    <h6 class="modal_info">${
+                                      Data[i].register
+                                        ? `Event Date:  ${Data[i].date}`
+                                        : ""
+                                    }</h6>
+                                    <p class="modal_info">${Data[i].description}</p>
+                                    
+                                    <img src=${"./img/events/" + Data[i].image} alt="" class="modal_img">
                                     ${
                                       Data[i].register
-                                        ? `<a href="/register.html" class="btn btn-primary" style="margin-top: 20px;">
+                                        ? `<a href="/register.html" class="btn btn-primary" style="margin-top: 20px; font-size: 1.5rem">
                                           Register Now
                                         </a>`
                                         : ""

@@ -35,30 +35,35 @@
   font-size: 1.35rem;
   border-bottom: 2px solid #0066b2;
 }
-/*
-#flc{
-    background: url(../img/Financial\ Literacy\ Club.jpg) center;
-    background-size: cover;
-    border-radius: 0 10px 10px 0;
+
+
+#flc {
+  background-color: #1886b7;
+  border-radius: 0 10px 10px 0;
 }
-#wec{
-    background: url(../img/ojaswini.jpg);
-    background-size: cover;
-    border-radius: 0 10px 10px 0;
+#wec {
+  background-color: #6e63bf;
+  border-radius: 0 10px 10px 0;
 }
-*/
+
 .modal_img {
   width: 90%;
   height: auto;
   margin: 2rem 5%;
 }
 
-@media (max-width: 575.98px) {
+
+@media (max-width: 767.98px) {
   .tile {
     flex-direction: column-reverse;
   }
   .tile_img {
     height: 90%;
+  }
+  #flc,
+  #wec {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
   }
 }
 
@@ -70,9 +75,59 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: darkgoldenrod;
+
 }
 
 .tile_img {
-  width: 90%;
+  width: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .tile {
+    flex-direction: column-reverse;
+    justify-content: flex-end !important;
+  }
+  #flc,
+  #wec {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  .tbox {
+    width: 100% !important;
+  }
+}
+
+.modal-header {
+  border-bottom: none !important;
+}
+.modal_info {
+  line-height: 2;
+  font-size: 1.2rem;
+  margin: 1.2rem;
+  text-align: justify;
+}
+.modal-title {
+  font-size: 1.5rem;
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+}
+.title {
+  margin: 1.2rem;
+  font-size: 3rem !important;
+}
+.remove{
+  border: 0 !important;
+  background: white !important;
+}
+
+.fawesome{
+  margin-right: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: gray;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.3);
+  position: absolute;
+  font-size: 1.6rem;
+  margin-left: -3rem;
+  margin-top: -1rem;
 }

@@ -62,8 +62,8 @@ body {
 
 @media (max-width: 768px) {
   /*#main_team .margin_new {
-		width: 90%;
-	}*/
+		  width: 90%;
+	  }*/
 }
 
 #main_team h1 {
@@ -83,16 +83,16 @@ body {
   }
 }
 /*
-#main_team .margin {
-	width: 75%;
-}
-
-@media (max-width: 768px) {
-	#main_team .margin {
-		width: 80%;
-	}
-}
-*/
+  #main_team .margin {
+	  width: 75%;
+  }
+  
+  @media (max-width: 768px) {
+	  #main_team .margin {
+		  width: 80%;
+	  }
+  }
+  */
 
 #main_team .head_team {
   min-height: 100px;

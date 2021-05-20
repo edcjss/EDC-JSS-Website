@@ -89,10 +89,16 @@ p {
     background-color: #f7f7f7;
 }*/
 
-/* .content {
+
+.content {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.content2 {
   margin-top: 40px;
   margin-bottom: 20px;
-} */
+}
 
 .content-wrapper {
   width: 95%;
