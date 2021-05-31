@@ -31,41 +31,6 @@
             ]
         },
         {
-            "profile": "Atulya.jpg",
-            "name": " Atulya Srivastava ",
-            "designation": "Board of Directors",
-            "links": [
-                {
-                    "website": "linkedin",
-                    "url": "https://www.linkedin.com/in/atulya-srivastava/"
-                }
-            ]
-        },
-        {
-            "profile": "Nischal.jpg",
-            "name": "Nishchal Singh",
-            "designation": "Board of Directors",
-            "links": [
-                {
-                    "website": "linkedin",
-                    "url": "https://www.linkedin.com/in/nischal-singh-42898b157"
-                }
-            ]
-        },
-        {
-            "profile": "Parmeet.jpg",
-            "name": "Parmeet Singh",
-            "designation": "Board of Directors",
-            "links": [
-                {
-                    "website": "linkedin",
-                    "url": "https://www.linkedin.com/in/parmeet-singh-chattha-788658149"
-                }
-            ]
-        }
-    ],
-    "third": [
-        {
             "profile": "Anukarsh.jpg",
             "name": "Anukarsh Raj",
             "designation": "Core Designer",
@@ -129,6 +94,41 @@
                 {
                     "website": "linkedin",
                     "url": "https://www.linkedin.com/in/amit-shukla-65a7b9169"
+                }
+            ]
+        }
+    ],
+    "third": [
+        {
+            "profile": "Atulya.jpg",
+            "name": " Atulya Srivastava ",
+            "designation": "Board of Directors",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/atulya-srivastava/"
+                }
+            ]
+        },
+        {
+            "profile": "Nischal.jpg",
+            "name": "Nishchal Singh",
+            "designation": "Board of Directors",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/nischal-singh-42898b157"
+                }
+            ]
+        },
+        {
+            "profile": "Parmeet.jpg",
+            "name": "Parmeet Singh",
+            "designation": "Board of Directors",
+            "links": [
+                {
+                    "website": "linkedin",
+                    "url": "https://www.linkedin.com/in/parmeet-singh-chattha-788658149"
                 }
             ]
         }
