@@ -20,7 +20,7 @@ img.fakeimg-top {
   margin: auto;
   width: 42%;
   padding: 20px;
-  font-size: 20px;
+  font-size: 1rem;
 }
 .flex-container {
   display: flex;
