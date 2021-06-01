@@ -31,6 +31,12 @@ h6 {
   font-size: 1.4rem;
 }
 
+@media (max-width: 576px) {
+  .edc-title {
+    font-size: 1.5rem !important;
+  }
+}
+
 p {
   font-size: 1rem;
 }
@@ -156,8 +162,14 @@ p {
 }
 
 .banner {
-  width: auto !important;
+  width: 960px;
   margin: auto;
+}
+
+@media (max-width: 992px) {
+  .banner {
+    width: 100%;
+  }
 }
 
 .i-links {

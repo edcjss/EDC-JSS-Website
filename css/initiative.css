@@ -96,8 +96,14 @@
 }
 .modal-title {
   font-size: 1.5rem;
-  margin-left: 2rem;
   margin-top: 0.5rem;
+  width: 100%;
+  text-align: center;
+}
+.modal-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 .title {
   margin: 1.2rem;
