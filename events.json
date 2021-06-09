@@ -10,6 +10,7 @@
       "date": "",
       "venue": "",
       "register": "",
+      "link": "",
       "button": "View More"
     },
     {
@@ -21,7 +22,8 @@
       "modal_img": "",
       "date": "TBA",
       "venue": "TBA",
-      "register": "https://esummit.edcjss.in/",
+      "register": "",
+      "link": "https://esummit.edcjss.in/",
       "button": "View More"
     },
     {
@@ -34,6 +36,7 @@
       "date": "",
       "venue": "",
       "register": "",
+      "link": "",
       "button": "View More"
     },
     {
@@ -46,6 +49,7 @@
       "date": "",
       "venue": "",
       "register": "",
+      "link": "",
       "button": "View More"
     },
     {
@@ -58,6 +62,7 @@
       "date": "",
       "venue": "",
       "register": "",
+      "link": "",
       "button": "Register Now"
     }
   ]
