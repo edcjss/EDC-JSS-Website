@@ -66,7 +66,7 @@ Click on `Compare and Pull Request`
 - [LinkedIn](https://www.linkedin.com/company/edc-jssate/)
 - [Twitter](https://twitter.com/cell_edc)
 
-## Connect with us
+## Made with ❤️ by DSCJSS
 
 <div align="center">
  <a href="https://dscjss.in/"><img src="https://user-images.githubusercontent.com/42115530/94302134-5c28c680-ff89-11ea-9ca4-5dcdd4279786.png"  height=100px /></a> <br><br> 
