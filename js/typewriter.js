@@ -35,7 +35,7 @@ typeWriter.prototype.type = function () {
   this.txtElement.innerHTML = `<span class="txt">${this.txt}</span>`;
 
   // Custom Type Speed for words
-  let typeSpeed = 300;
+  let typeSpeed = 100;
   if (this.isDeleting) {
     typeSpeed /= 2;
   }
