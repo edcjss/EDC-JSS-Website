@@ -12,7 +12,7 @@
 .sponsor-article {
   display: flex;
   width: 200%;
-  animation: bannermove 20s linear infinite;
+  animation: bannermove 10s linear infinite;
 }
 
 .sponsor-article.paused {
@@ -41,7 +41,7 @@
 
 @keyframes bannermove {
   0% {
-    transform: translateX(0);
+    transform: translateX();
   }
   100% {
     transform: translateX(-50%);
